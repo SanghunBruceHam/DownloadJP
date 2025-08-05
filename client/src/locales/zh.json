@@ -1,0 +1,160 @@
+{
+  "common": {
+    "currentLanguage": "zh"
+  },
+  "seo": {
+    "title": "LINE 下载 - 免费下载官方应用",
+    "description": "免费下载 LINE 官方应用。支持智能手机、PC、平板电脑。提供安全快速的下载链接。",
+    "keywords": "LINE, 下载, 应用, 免费, 聊天, 通话"
+  },
+  "header": {
+    "title": "LINE 下载",
+    "subtitle": "官方下载网站",
+    "searchPlaceholder": "搜索..."
+  },
+  "hero": {
+    "title": {
+      "main": "下载 LINE 应用",
+      "highlight": "完全免费"
+    },
+    "description": "全世界都在使用的通讯应用。让与朋友和家人的联系变得更加有趣和便利。",
+    "detectedDevice": "您的设备",
+    "downloadButton": {
+      "android": "在 Google Play 下载",
+      "ios": "在 App Store 下载",
+      "windows": "下载 Windows 版",
+      "mac": "在 Mac App Store 下载",
+      "web": "打开网页版"
+    },
+    "trustIndicators": {
+      "secure": "安全下载",
+      "downloads": "10亿+ 下载量",
+      "rating": "4.8★ 评分"
+    },
+    "imageAlt": "LINE 应用界面"
+  },
+  "platforms": {
+    "title": "支持所有平台",
+    "description": "下载最适合您设备的 LINE 应用",
+    "downloadButton": "下载",
+    "android": {
+      "name": "Android",
+      "requirements": "Android 5.0 或更高版本"
+    },
+    "ios": {
+      "name": "iOS",
+      "requirements": "iOS 12.0 或更高版本"
+    },
+    "windows": {
+      "name": "Windows",
+      "requirements": "Windows 10 或更高版本"
+    },
+    "mac": {
+      "name": "macOS",
+      "requirements": "macOS 10.14 或更高版本"
+    },
+    "web": {
+      "name": "网页版",
+      "requirements": "浏览器支持",
+      "title": "LINE 网页版",
+      "description": "在浏览器中使用 LINE - 无需安装",
+      "button": "打开网页版"
+    }
+  },
+  "features": {
+    "title": "LINE 的主要功能",
+    "description": "让沟通变得更加有趣和便利的丰富功能",
+    "items": {
+      "chat": {
+        "title": "聊天",
+        "description": "通过文字、贴图、照片、视频等多种方式进行沟通"
+      },
+      "call": {
+        "title": "免费通话",
+        "description": "在世界任何地方都可以免费进行语音和视频通话"
+      },
+      "stickers": {
+        "title": "贴图",
+        "description": "用丰富的贴图表达情感。还有许多免费贴图"
+      },
+      "groups": {
+        "title": "群聊",
+        "description": "最多支持500人参与的群聊，一起享受乐趣"
+      },
+      "camera": {
+        "title": "相机功能",
+        "description": "用滤镜和特效让照片和视频更加有趣"
+      },
+      "security": {
+        "title": "安全性",
+        "description": "通过 Letter Sealing 进行端到端加密，确保通信安全"
+      }
+    }
+  },
+  "installation": {
+    "title": "安装指南",
+    "description": "简单3步即可开始使用 LINE",
+    "steps": {
+      "download": {
+        "title": "下载",
+        "description": "下载适合您设备的 LINE 应用"
+      },
+      "account": {
+        "title": "创建账户",
+        "description": "使用手机号码创建账户并设置个人资料"
+      },
+      "friends": {
+        "title": "添加好友",
+        "description": "通过二维码或 ID 搜索添加好友，开始聊天"
+      }
+    }
+  },
+  "faq": {
+    "title": "常见问题",
+    "description": "关于 LINE 的下载和使用",
+    "items": {
+      "free": {
+        "question": "LINE 可以免费使用吗？",
+        "answer": "是的，LINE 的基本功能（聊天、语音通话、视频通话等）完全免费使用。部分付费贴图和游戏内购买需要额外付费。"
+      },
+      "data": {
+        "question": "会消耗多少数据流量？",
+        "answer": "文字消息非常轻量，语音通话每分钟约消耗 0.3MB，视频通话每分钟约消耗 5MB 数据。建议在 Wi-Fi 环境下使用。"
+      },
+      "multidevice": {
+        "question": "可以在多个设备上使用同一账户吗？",
+        "answer": "智能手机版本每个账户只能在一台设备上使用，但 PC 版和 iPad 版可以同时使用。消息会在所有设备间同步。"
+      },
+      "delete": {
+        "question": "如何删除账户？",
+        "answer": "可以在 设置 > 账户 > 删除账户 中进行操作。请注意，删除后所有数据将永久删除且无法恢复。"
+      }
+    }
+  },
+  "footer": {
+    "brand": "LINE 下载",
+    "description": "官方 LINE 应用的安全下载网站。支持所有平台。",
+    "sections": {
+      "download": "下载",
+      "support": "支持",
+      "language": "语言"
+    },
+    "links": {
+      "android": "Android 版",
+      "ios": "iOS 版",
+      "windows": "Windows 版",
+      "mac": "Mac 版",
+      "web": "网页版",
+      "help": "帮助中心",
+      "faq": "常见问题",
+      "guide": "安装指南",
+      "contact": "联系我们"
+    },
+    "copyright": "© 2024 LINE Corporation. All rights reserved.",
+    "legal": {
+      "privacy": "隐私政策",
+      "terms": "使用条款",
+      "disclaimer": "免责声明"
+    }
+  }
+}

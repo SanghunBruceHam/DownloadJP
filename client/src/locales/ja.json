@@ -1,0 +1,160 @@
+{
+  "common": {
+    "currentLanguage": "ja"
+  },
+  "seo": {
+    "title": "LINE ダウンロード - 公式アプリを無料でダウンロード",
+    "description": "LINE公式アプリを無料でダウンロード。スマートフォン、PC、タブレットに対応。安全で高速なダウンロードリンクを提供。",
+    "keywords": "LINE, ダウンロード, アプリ, 無料, チャット, 通話"
+  },
+  "header": {
+    "title": "LINE ダウンロード",
+    "subtitle": "公式ダウンロードサイト",
+    "searchPlaceholder": "検索..."
+  },
+  "hero": {
+    "title": {
+      "main": "LINE アプリを",
+      "highlight": "無料ダウンロード"
+    },
+    "description": "世界中で愛用されているコミュニケーションアプリ。友達や家族との連絡がもっと楽しく、便利になります。",
+    "detectedDevice": "あなたのデバイス",
+    "downloadButton": {
+      "android": "Google Play で入手",
+      "ios": "App Store で入手",
+      "windows": "Windows版をダウンロード",
+      "mac": "Mac App Store で入手",
+      "web": "Web版を開く"
+    },
+    "trustIndicators": {
+      "secure": "安全なダウンロード",
+      "downloads": "10億+ ダウンロード",
+      "rating": "4.8★ 評価"
+    },
+    "imageAlt": "LINE app interface"
+  },
+  "platforms": {
+    "title": "すべてのプラットフォームに対応",
+    "description": "お使いのデバイスに最適なLINEアプリをダウンロード",
+    "downloadButton": "ダウンロード",
+    "android": {
+      "name": "Android",
+      "requirements": "Android 5.0以上"
+    },
+    "ios": {
+      "name": "iOS",
+      "requirements": "iOS 12.0以上"
+    },
+    "windows": {
+      "name": "Windows",
+      "requirements": "Windows 10以上"
+    },
+    "mac": {
+      "name": "macOS",
+      "requirements": "macOS 10.14以上"
+    },
+    "web": {
+      "name": "Web版",
+      "requirements": "ブラウザ対応",
+      "title": "LINE Web版",
+      "description": "ブラウザでLINEを使用 - インストール不要",
+      "button": "Web版を開く"
+    }
+  },
+  "features": {
+    "title": "LINEの主な機能",
+    "description": "コミュニケーションをもっと楽しく、便利にする機能が満載",
+    "items": {
+      "chat": {
+        "title": "チャット",
+        "description": "テキスト、スタンプ、写真、動画など、様々な方法でコミュニケーション"
+      },
+      "call": {
+        "title": "無料通話",
+        "description": "音声通話やビデオ通話が世界中どこでも無料で楽しめます"
+      },
+      "stickers": {
+        "title": "スタンプ",
+        "description": "豊富なスタンプで感情を表現。無料スタンプも多数用意"
+      },
+      "groups": {
+        "title": "グループチャット",
+        "description": "最大500人まで参加可能なグループチャットで盛り上がろう"
+      },
+      "camera": {
+        "title": "カメラ機能",
+        "description": "フィルターやエフェクトで写真や動画をもっと楽しく"
+      },
+      "security": {
+        "title": "セキュリティ",
+        "description": "Letter Sealingによるエンドツーエンド暗号化で安全な通信"
+      }
+    }
+  },
+  "installation": {
+    "title": "インストールガイド",
+    "description": "簡単3ステップでLINEを始められます",
+    "steps": {
+      "download": {
+        "title": "ダウンロード",
+        "description": "お使いのデバイスに対応したLINEアプリをダウンロードします"
+      },
+      "account": {
+        "title": "アカウント作成",
+        "description": "電話番号を使ってアカウントを作成し、プロフィールを設定します"
+      },
+      "friends": {
+        "title": "友達追加",
+        "description": "QRコードやID検索で友達を追加して、チャットを始めましょう"
+      }
+    }
+  },
+  "faq": {
+    "title": "よくある質問",
+    "description": "LINEのダウンロードと使用について",
+    "items": {
+      "free": {
+        "question": "LINEは無料で使えますか？",
+        "answer": "はい、LINEの基本機能（チャット、音声通話、ビデオ通話など）は完全無料でご利用いただけます。一部の有料スタンプやゲーム内課金などは別途料金が発生します。"
+      },
+      "data": {
+        "question": "データ通信量はどのくらいかかりますか？",
+        "answer": "テキストメッセージは非常に軽量で、音声通話は1分あたり約0.3MB、ビデオ通話は1分あたり約5MBのデータを消費します。Wi-Fi環境での使用をお勧めします。"
+      },
+      "multidevice": {
+        "question": "複数のデバイスで同じアカウントを使えますか？",
+        "answer": "スマートフォン版は1つのアカウントにつき1台のみですが、PC版やiPad版は同時に使用可能です。メッセージは全デバイス間で同期されます。"
+      },
+      "delete": {
+        "question": "アカウントを削除するにはどうすればいいですか？",
+        "answer": "設定 > アカウント > アカウント削除 から手続きできます。削除すると全てのデータが消去され、復元できませんのでご注意ください。"
+      }
+    }
+  },
+  "footer": {
+    "brand": "LINE ダウンロード",
+    "description": "公式LINEアプリの安全なダウンロードサイト。すべてのプラットフォームに対応。",
+    "sections": {
+      "download": "ダウンロード",
+      "support": "サポート",
+      "language": "言語"
+    },
+    "links": {
+      "android": "Android版",
+      "ios": "iOS版",
+      "windows": "Windows版",
+      "mac": "Mac版",
+      "web": "Web版",
+      "help": "ヘルプセンター",
+      "faq": "よくある質問",
+      "guide": "インストールガイド",
+      "contact": "お問い合わせ"
+    },
+    "copyright": "© 2024 LINE Corporation. All rights reserved.",
+    "legal": {
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約",
+      "disclaimer": "免責事項"
+    }
+  }
+}

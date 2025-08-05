@@ -1,0 +1,160 @@
+{
+  "common": {
+    "currentLanguage": "en"
+  },
+  "seo": {
+    "title": "LINE Download - Download Official App for Free",
+    "description": "Download the official LINE app for free. Compatible with smartphones, PCs, and tablets. Providing safe and fast download links.",
+    "keywords": "LINE, download, app, free, chat, call"
+  },
+  "header": {
+    "title": "LINE Download",
+    "subtitle": "Official Download Site",
+    "searchPlaceholder": "Search..."
+  },
+  "hero": {
+    "title": {
+      "main": "Download LINE App",
+      "highlight": "for Free"
+    },
+    "description": "The communication app loved worldwide. Make connecting with friends and family more fun and convenient.",
+    "detectedDevice": "Your device",
+    "downloadButton": {
+      "android": "Get it on Google Play",
+      "ios": "Download on App Store",
+      "windows": "Download for Windows",
+      "mac": "Download on Mac App Store",
+      "web": "Open Web Version"
+    },
+    "trustIndicators": {
+      "secure": "Secure Download",
+      "downloads": "1B+ Downloads",
+      "rating": "4.8★ Rating"
+    },
+    "imageAlt": "LINE app interface"
+  },
+  "platforms": {
+    "title": "Available on All Platforms",
+    "description": "Download the LINE app that's perfect for your device",
+    "downloadButton": "Download",
+    "android": {
+      "name": "Android",
+      "requirements": "Android 5.0 or later"
+    },
+    "ios": {
+      "name": "iOS",
+      "requirements": "iOS 12.0 or later"
+    },
+    "windows": {
+      "name": "Windows",
+      "requirements": "Windows 10 or later"
+    },
+    "mac": {
+      "name": "macOS",
+      "requirements": "macOS 10.14 or later"
+    },
+    "web": {
+      "name": "Web Version",
+      "requirements": "Browser compatible",
+      "title": "LINE Web Version",
+      "description": "Use LINE in your browser - No installation required",
+      "button": "Open Web Version"
+    }
+  },
+  "features": {
+    "title": "Main Features of LINE",
+    "description": "Packed with features to make communication more fun and convenient",
+    "items": {
+      "chat": {
+        "title": "Chat",
+        "description": "Communicate in various ways with text, stickers, photos, videos, and more"
+      },
+      "call": {
+        "title": "Free Calls",
+        "description": "Enjoy free voice and video calls anywhere in the world"
+      },
+      "stickers": {
+        "title": "Stickers",
+        "description": "Express emotions with rich stickers. Many free stickers available"
+      },
+      "groups": {
+        "title": "Group Chat",
+        "description": "Have fun with group chats supporting up to 500 participants"
+      },
+      "camera": {
+        "title": "Camera Features",
+        "description": "Make photos and videos more fun with filters and effects"
+      },
+      "security": {
+        "title": "Security",
+        "description": "Safe communication with end-to-end encryption through Letter Sealing"
+      }
+    }
+  },
+  "installation": {
+    "title": "Installation Guide",
+    "description": "Get started with LINE in just 3 simple steps",
+    "steps": {
+      "download": {
+        "title": "Download",
+        "description": "Download the LINE app compatible with your device"
+      },
+      "account": {
+        "title": "Create Account",
+        "description": "Create an account using your phone number and set up your profile"
+      },
+      "friends": {
+        "title": "Add Friends",
+        "description": "Add friends using QR codes or ID search, and start chatting"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "About downloading and using LINE",
+    "items": {
+      "free": {
+        "question": "Is LINE free to use?",
+        "answer": "Yes, LINE's basic features (chat, voice calls, video calls, etc.) are completely free to use. Some paid stickers and in-game purchases may incur additional charges."
+      },
+      "data": {
+        "question": "How much data does it consume?",
+        "answer": "Text messages are very lightweight. Voice calls consume about 0.3MB per minute, and video calls consume about 5MB per minute. We recommend using Wi-Fi when possible."
+      },
+      "multidevice": {
+        "question": "Can I use the same account on multiple devices?",
+        "answer": "Smartphone version allows only one device per account, but PC and iPad versions can be used simultaneously. Messages are synchronized across all devices."
+      },
+      "delete": {
+        "question": "How do I delete my account?",
+        "answer": "Go to Settings > Account > Delete Account to proceed. Please note that all data will be permanently deleted and cannot be restored."
+      }
+    }
+  },
+  "footer": {
+    "brand": "LINE Download",
+    "description": "Official and secure LINE app download site. Compatible with all platforms.",
+    "sections": {
+      "download": "Download",
+      "support": "Support",
+      "language": "Language"
+    },
+    "links": {
+      "android": "Android Version",
+      "ios": "iOS Version",
+      "windows": "Windows Version",
+      "mac": "Mac Version",
+      "web": "Web Version",
+      "help": "Help Center",
+      "faq": "FAQ",
+      "guide": "Installation Guide",
+      "contact": "Contact Us"
+    },
+    "copyright": "© 2024 LINE Corporation. All rights reserved.",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "disclaimer": "Disclaimer"
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "common": {
+    "currentLanguage": "ko"
+  },
+  "seo": {
+    "title": "LINE 다운로드 - 무료 공식 앱 다운로드",
+    "description": "LINE 공식 앱을 무료로 다운로드하세요. 스마트폰, PC, 태블릿 지원. 안전하고 빠른 다운로드 링크 제공.",
+    "keywords": "LINE, 다운로드, 앱, 무료, 채팅, 통화"
+  },
+  "header": {
+    "title": "LINE 다운로드",
+    "subtitle": "공식 다운로드 사이트",
+    "searchPlaceholder": "검색..."
+  },
+  "hero": {
+    "title": {
+      "main": "LINE 앱을",
+      "highlight": "무료 다운로드"
+    },
+    "description": "전 세계에서 사랑받는 커뮤니케이션 앱. 친구와 가족과의 연락이 더욱 즐겁고 편리해집니다.",
+    "detectedDevice": "당신의 기기",
+    "downloadButton": {
+      "android": "Google Play에서 다운로드",
+      "ios": "App Store에서 다운로드",
+      "windows": "Windows용 다운로드",
+      "mac": "Mac App Store에서 다운로드",
+      "web": "웹 버전 열기"
+    },
+    "trustIndicators": {
+      "secure": "안전한 다운로드",
+      "downloads": "10억+ 다운로드",
+      "rating": "4.8★ 평점"
+    },
+    "imageAlt": "LINE 앱 인터페이스"
+  },
+  "platforms": {
+    "title": "모든 플랫폼 지원",
+    "description": "당신의 기기에 최적화된 LINE 앱을 다운로드하세요",
+    "downloadButton": "다운로드",
+    "android": {
+      "name": "Android",
+      "requirements": "Android 5.0 이상"
+    },
+    "ios": {
+      "name": "iOS",
+      "requirements": "iOS 12.0 이상"
+    },
+    "windows": {
+      "name": "Windows",
+      "requirements": "Windows 10 이상"
+    },
+    "mac": {
+      "name": "macOS",
+      "requirements": "macOS 10.14 이상"
+    },
+    "web": {
+      "name": "웹 버전",
+      "requirements": "브라우저 지원",
+      "title": "LINE 웹 버전",
+      "description": "브라우저에서 LINE 사용 - 설치 불필요",
+      "button": "웹 버전 열기"
+    }
+  },
+  "features": {
+    "title": "LINE의 주요 기능",
+    "description": "커뮤니케이션을 더욱 즐겁고 편리하게 만드는 다양한 기능",
+    "items": {
+      "chat": {
+        "title": "채팅",
+        "description": "텍스트, 스티커, 사진, 동영상 등 다양한 방법으로 소통"
+      },
+      "call": {
+        "title": "무료 통화",
+        "description": "전 세계 어디서나 무료 음성 및 영상 통화 가능"
+      },
+      "stickers": {
+        "title": "스티커",
+        "description": "풍부한 스티커로 감정 표현. 무료 스티커도 많이 제공"
+      },
+      "groups": {
+        "title": "그룹 채팅",
+        "description": "최대 500명까지 참여 가능한 그룹 채팅으로 함께 즐기기"
+      },
+      "camera": {
+        "title": "카메라 기능",
+        "description": "필터와 이펙트로 사진과 동영상을 더욱 재미있게"
+      },
+      "security": {
+        "title": "보안",
+        "description": "Letter Sealing을 통한 종단간 암호화로 안전한 통신"
+      }
+    }
+  },
+  "installation": {
+    "title": "설치 가이드",
+    "description": "간단한 3단계로 LINE을 시작하세요",
+    "steps": {
+      "download": {
+        "title": "다운로드",
+        "description": "당신의 기기에 맞는 LINE 앱을 다운로드합니다"
+      },
+      "account": {
+        "title": "계정 생성",
+        "description": "전화번호로 계정을 생성하고 프로필을 설정합니다"
+      },
+      "friends": {
+        "title": "친구 추가",
+        "description": "QR 코드나 ID 검색으로 친구를 추가하고 채팅을 시작하세요"
+      }
+    }
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "description": "LINE 다운로드 및 사용에 대해",
+    "items": {
+      "free": {
+        "question": "LINE은 무료로 사용할 수 있나요?",
+        "answer": "네, LINE의 기본 기능(채팅, 음성 통화, 영상 통화 등)은 완전 무료로 이용하실 수 있습니다. 일부 유료 스티커나 게임 내 결제는 별도 요금이 발생합니다."
+      },
+      "data": {
+        "question": "데이터 사용량은 얼마나 되나요?",
+        "answer": "텍스트 메시지는 매우 가벼우며, 음성 통화는 분당 약 0.3MB, 영상 통화는 분당 약 5MB의 데이터를 소모합니다. Wi-Fi 환경에서 사용하시길 권장합니다."
+      },
+      "multidevice": {
+        "question": "여러 기기에서 같은 계정을 사용할 수 있나요?",
+        "answer": "스마트폰 버전은 계정당 한 대만 가능하지만, PC 버전과 iPad 버전은 동시 사용이 가능합니다. 메시지는 모든 기기 간 동기화됩니다."
+      },
+      "delete": {
+        "question": "계정을 삭제하려면 어떻게 해야 하나요?",
+        "answer": "설정 > 계정 > 계정 삭제에서 진행할 수 있습니다. 삭제하면 모든 데이터가 영구 삭제되며 복구할 수 없으니 주의하세요."
+      }
+    }
+  },
+  "footer": {
+    "brand": "LINE 다운로드",
+    "description": "공식 LINE 앱의 안전한 다운로드 사이트. 모든 플랫폼 지원.",
+    "sections": {
+      "download": "다운로드",
+      "support": "지원",
+      "language": "언어"
+    },
+    "links": {
+      "android": "Android 버전",
+      "ios": "iOS 버전",
+      "windows": "Windows 버전",
+      "mac": "Mac 버전",
+      "web": "웹 버전",
+      "help": "도움말 센터",
+      "faq": "자주 묻는 질문",
+      "guide": "설치 가이드",
+      "contact": "문의하기"
+    },
+    "copyright": "© 2024 LINE Corporation. All rights reserved.",
+    "legal": {
+      "privacy": "개인정보처리방침",
+      "terms": "이용약관",
+      "disclaimer": "면책조항"
+    }
+  }
+}
