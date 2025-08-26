@@ -52,7 +52,7 @@
     "mac": {
       "name": "macOS",
       "requirements": "macOS 12.0以上"
-    },
+    }
   },
   "features": {
     "title": "LINEの主な機能",
