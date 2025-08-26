@@ -20,11 +20,11 @@
     "description": "The communication app loved worldwide. Make connecting with friends and family more fun and convenient.",
     "detectedDevice": "Your device",
     "downloadButton": {
-      "android": "Get it on Google Play",
-      "ios": "Download on App Store",
-      "windows": "Download for Windows",
-      "mac": "Download on Mac App Store",
-      "web": "Open Web Version"
+      "android": "View Download Options",
+      "ios": "View Download Options",
+      "windows": "View Download Options",
+      "mac": "View Download Options",
+      "web": "View Download Options"
     },
     "trustIndicators": {
       "secure": "Secure Download",

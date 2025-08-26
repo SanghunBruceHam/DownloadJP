@@ -14,21 +14,14 @@ export default function HeroSection() {
   
   const platformInfo = getPlatformInfo(detectedPlatform, t);
   
-  const handleDownload = async () => {
-    try {
-      // Track download event
-      await apiRequest('POST', '/api/downloads', {
-        platform: detectedPlatform,
-        language: t('common.currentLanguage'),
-        userAgent: navigator.userAgent,
+  const handleDownload = () => {
+    // Smooth scroll to platforms section
+    const platformsSection = document.getElementById('platforms-section');
+    if (platformsSection) {
+      platformsSection.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
       });
-      
-      // Open download link
-      window.open(platformInfo.downloadUrl, '_blank');
-    } catch (error) {
-      console.error('Download tracking failed:', error);
-      // Still proceed with download
-      window.open(platformInfo.downloadUrl, '_blank');
     }
   };
 

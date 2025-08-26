@@ -20,11 +20,11 @@
     "description": "世界中で愛用されているコミュニケーションアプリ。友達や家族との連絡がもっと楽しく、便利になります。",
     "detectedDevice": "あなたのデバイス",
     "downloadButton": {
-      "android": "Google Play で入手",
-      "ios": "App Store で入手",
-      "windows": "Windows版をダウンロード",
-      "mac": "Mac App Store で入手",
-      "web": "Web版を開く"
+      "android": "ダウンロードオプションを見る",
+      "ios": "ダウンロードオプションを見る",
+      "windows": "ダウンロードオプションを見る",
+      "mac": "ダウンロードオプションを見る",
+      "web": "ダウンロードオプションを見る"
     },
     "trustIndicators": {
       "secure": "安全なダウンロード",

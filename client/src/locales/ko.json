@@ -20,11 +20,11 @@
     "description": "전 세계에서 사랑받는 커뮤니케이션 앱. 친구와 가족과의 연락이 더욱 즐겁고 편리해집니다.",
     "detectedDevice": "당신의 기기",
     "downloadButton": {
-      "android": "Google Play에서 다운로드",
-      "ios": "App Store에서 다운로드",
-      "windows": "Windows용 다운로드",
-      "mac": "Mac App Store에서 다운로드",
-      "web": "웹 버전 열기"
+      "android": "다운로드 옵션 보기",
+      "ios": "다운로드 옵션 보기",
+      "windows": "다운로드 옵션 보기",
+      "mac": "다운로드 옵션 보기",
+      "web": "다운로드 옵션 보기"
     },
     "trustIndicators": {
       "secure": "안전한 다운로드",
