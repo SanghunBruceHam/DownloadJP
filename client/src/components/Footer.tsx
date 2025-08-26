@@ -4,13 +4,16 @@ import AdBanner from './AdBanner';
 export default function Footer() {
   const { t } = useTranslation();
 
-  const downloadLinks = ['android', 'ios', 'windows', 'mac', 'web'];
+  const downloadLinks = ['android', 'ios', 'windows', 'mac'];
   const supportLinks = ['help', 'faq', 'guide', 'contact'];
   const languages = [
     { code: 'ja', name: '🇯🇵 日本語' },
     { code: 'en', name: '🇺🇸 English' },
     { code: 'ko', name: '🇰🇷 한국어' },
-    { code: 'zh', name: '🇨🇳 中文' },
+    { code: 'zh', name: '🇨🇳 中文 (简体)' },
+    { code: 'th', name: '🇹🇭 ไทย' },
+    { code: 'id', name: '🇮🇩 Bahasa Indonesia' },
+    { code: 'tw', name: '🇹🇼 中文 (繁體)' },
   ];
 
   return (
