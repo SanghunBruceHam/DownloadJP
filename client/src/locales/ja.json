@@ -210,6 +210,18 @@
         "tip2": "季節やイベントに合わせてテーマを変更して楽しむ",
         "tip3": "友達とお揃いのテーマでトークをより楽しく"
       }
+    },
+    "installTips": {
+      "title": "インストールのコツ",
+      "tip1": "安定したWi-Fi接続環境でインストールしてください",
+      "tip2": "十分なストレージ容量を確保してください（最低100MB）",
+      "tip3": "最新のオペレーティングシステムでのインストールを推奨します"
+    },
+    "imageAlts": {
+      "googlePlayDownload": "Google Play StoreでのLINEダウンロード",
+      "appStoreDownload": "App StoreでのLINEダウンロード", 
+      "macAppStoreDownload": "Mac App StoreでのLINEダウンロード",
+      "windowsInstaller": "Windows用LINEインストーラー"
     }
   },
   "footer": {

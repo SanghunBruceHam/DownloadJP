@@ -10,7 +10,8 @@
   "header": {
     "title": "ดาวน์โหลด LINE",
     "subtitle": "เว็บไซต์ดาวน์โหลด",
-    "searchPlaceholder": "ค้นหา..."
+    "searchPlaceholder": "ค้นหา...",
+    "searchNoResults": "ไม่พบผลการค้นหา"
   },
   "hero": {
     "title": {
@@ -209,6 +210,20 @@
         "question": "จะลบบัญชีได้อย่างไร?",
         "answer": "ไปที่ การตั้งค่า > บัญชี > ลบบัญชี เพื่อดำเนินการ โปรดทราบว่าข้อมูลทั้งหมดจะถูกลบอย่างถาวรและไม่สามารถกู้คืนได้"
       }
+    }
+  },
+  "guide": {
+    "installTips": {
+      "title": "เคล็ดลับการติดตั้ง",
+      "tip1": "กรุณาติดตั้งในสภาพแวดล้อมที่มีการเชื่อมต่อ Wi-Fi ที่เสถียร",
+      "tip2": "กรุณาตรวจสอบให้แน่ใจว่ามีพื้นที่จัดเก็บข้อมูลเพียงพอ (ขั้นต่ำ 100MB)",
+      "tip3": "แนะนำให้ติดตั้งในระบบปฏิบัติการเวอร์ชันล่าสุด"
+    },
+    "imageAlts": {
+      "googlePlayDownload": "ดาวน์โหลด LINE ใน Google Play Store",
+      "appStoreDownload": "ดาวน์โหลด LINE ใน App Store",
+      "macAppStoreDownload": "ดาวน์โหลด LINE ใน Mac App Store",
+      "windowsInstaller": "ตัวติดตั้ง LINE สำหรับ Windows"
     }
   },
   "footer": {

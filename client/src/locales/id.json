@@ -10,7 +10,8 @@
   "header": {
     "title": "Download LINE",
     "subtitle": "Situs Download",
-    "searchPlaceholder": "Cari..."
+    "searchPlaceholder": "Cari...",
+    "searchNoResults": "Tidak ada hasil pencarian"
   },
   "hero": {
     "title": {
@@ -209,6 +210,20 @@
         "question": "Bagaimana cara menghapus akun saya?",
         "answer": "Pergi ke Pengaturan > Akun > Hapus Akun untuk melanjutkan. Harap dicatat bahwa semua data akan dihapus secara permanen dan tidak dapat dipulihkan."
       }
+    }
+  },
+  "guide": {
+    "installTips": {
+      "title": "Tips Instalasi",
+      "tip1": "Harap instal dalam lingkungan koneksi Wi-Fi yang stabil",
+      "tip2": "Pastikan ruang penyimpanan yang cukup (minimal 100MB)",
+      "tip3": "Instalasi pada sistem operasi terbaru disarankan"
+    },
+    "imageAlts": {
+      "googlePlayDownload": "Download LINE di Google Play Store",
+      "appStoreDownload": "Download LINE di App Store",
+      "macAppStoreDownload": "Download LINE di Mac App Store",
+      "windowsInstaller": "Installer LINE untuk Windows"
     }
   },
   "footer": {

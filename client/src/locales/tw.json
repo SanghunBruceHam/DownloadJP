@@ -10,7 +10,8 @@
   "header": {
     "title": "LINE 下載",
     "subtitle": "下載網站",
-    "searchPlaceholder": "搜尋..."
+    "searchPlaceholder": "搜尋...",
+    "searchNoResults": "找不到搜尋結果"
   },
   "hero": {
     "title": {
@@ -209,6 +210,20 @@
         "question": "如何刪除我的帳號？",
         "answer": "前往 設定 > 帳號 > 刪除帳號 進行操作。請注意，所有資料將被永久刪除且無法復原。"
       }
+    }
+  },
+  "guide": {
+    "installTips": {
+      "title": "安裝小訣竛",
+      "tip1": "請在穩定的Wi-Fi連線環境下安裝",
+      "tip2": "請確保足夠的儲存空間（至少100MB）",
+      "tip3": "建議在最新作業系統上安裝"
+    },
+    "imageAlts": {
+      "googlePlayDownload": "在Google Play Store下載LINE",
+      "appStoreDownload": "在App Store下載LINE",
+      "macAppStoreDownload": "在Mac App Store下載LINE",
+      "windowsInstaller": "Windows版LINE安裝程式"
     }
   },
   "footer": {

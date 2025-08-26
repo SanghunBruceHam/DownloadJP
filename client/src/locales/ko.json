@@ -10,7 +10,8 @@
   "header": {
     "title": "LINE 다운로드",
     "subtitle": "다운로드 사이트",
-    "searchPlaceholder": "검색..."
+    "searchPlaceholder": "검색...",
+    "searchNoResults": "검색 결과가 없습니다"
   },
   "hero": {
     "title": {
@@ -209,6 +210,18 @@
         "tip2": "계절이나 이벤트에 맞춰 테마를 변경하며 즐기기",
         "tip3": "친구들과 같은 테마로 대화를 더 즐곱게"
       }
+    },
+    "installTips": {
+      "title": "설치 팁",
+      "tip1": "안정적인 Wi-Fi 연결 상태에서 설치하세요",
+      "tip2": "충분한 저장 공간을 확보하세요 (최소 100MB)",
+      "tip3": "최신 운영체제에서 설치를 권장합니다"
+    },
+    "imageAlts": {
+      "googlePlayDownload": "Google Play Store에서 LINE 다운로드",
+      "appStoreDownload": "App Store에서 LINE 다운로드", 
+      "macAppStoreDownload": "Mac App Store에서 LINE 다운로드",
+      "windowsInstaller": "Windows용 LINE 설치 프로그램"
     }
   },
   "footer": {

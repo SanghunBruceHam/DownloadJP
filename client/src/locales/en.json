@@ -210,6 +210,18 @@
         "tip2": "Enjoy changing themes according to seasons or events",
         "tip3": "Make conversations more fun with matching themes with friends"
       }
+    },
+    "installTips": {
+      "title": "Installation Tips",
+      "tip1": "Please install in a stable Wi-Fi connection environment",
+      "tip2": "Please ensure sufficient storage space (minimum 100MB)",
+      "tip3": "Installation on the latest operating system is recommended"
+    },
+    "imageAlts": {
+      "googlePlayDownload": "LINE download on Google Play Store",
+      "appStoreDownload": "LINE download on App Store",
+      "macAppStoreDownload": "LINE download on Mac App Store",
+      "windowsInstaller": "LINE installer for Windows"
     }
   },
   "footer": {

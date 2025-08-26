@@ -106,7 +106,7 @@ export default function DetailedGuide() {
                       <h4 className="text-sm font-medium text-gray-700 mb-2">Android (Google Play)</h4>
                       <GuideImage 
                         src="/images/guide/mobile-playstore.png" 
-                        alt="Google Play Store에서 LINE 다운로드"
+                        alt={t('guide.imageAlts.googlePlayDownload')}
                         className="h-48 bg-white rounded-lg border border-gray-300 p-2"
                       />
                     </div>
@@ -114,7 +114,7 @@ export default function DetailedGuide() {
                       <h4 className="text-sm font-medium text-gray-700 mb-2">iOS (App Store)</h4>
                       <GuideImage 
                         src="/images/guide/mobile-appstore.png" 
-                        alt="App Store에서 LINE 다운로드"
+                        alt={t('guide.imageAlts.appStoreDownload')}
                         className="h-48 bg-white rounded-lg border border-gray-300 p-2"
                       />
                     </div>
@@ -145,7 +145,7 @@ export default function DetailedGuide() {
                       <h4 className="text-sm font-medium text-gray-700 mb-2">macOS (Mac App Store)</h4>
                       <GuideImage 
                         src="/images/guide/desktop-download.png" 
-                        alt="Mac App Store에서 LINE 다운로드"
+                        alt={t('guide.imageAlts.macAppStoreDownload')}
                         className="h-48 bg-white rounded-lg border border-gray-300 p-2"
                         fallback={false}
                       />
@@ -155,7 +155,7 @@ export default function DetailedGuide() {
                       <h4 className="text-sm font-medium text-gray-700 mb-2">Windows PC</h4>
                       <GuideImage 
                         src="/images/guide/desktop-installer.png" 
-                        alt="Windows용 LINE 설치 프로그램"
+                        alt={t('guide.imageAlts.windowsInstaller')}
                         className="h-32 bg-gray-100 rounded-lg flex items-center justify-center"
                         fallback={false}
                       />
@@ -179,7 +179,7 @@ export default function DetailedGuide() {
                 <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
                   <h4 className="font-semibold text-blue-900 mb-3 flex items-center">
                     <i className="fas fa-info-circle text-blue-600 mr-2"></i>
-                    설치 팁
+                    {t('guide.installTips.title')}
                   </h4>
                   
                   {/* Installation tips image commented out - no image available
@@ -194,15 +194,15 @@ export default function DetailedGuide() {
                   <div className="space-y-2 text-blue-700 text-sm">
                     <div className="flex items-start space-x-2">
                       <i className="fas fa-check-circle text-green-500 mt-0.5"></i>
-                      <p>안정적인 Wi-Fi 연결 상태에서 설치하세요</p>
+                      <p>{t('guide.installTips.tip1')}</p>
                     </div>
                     <div className="flex items-start space-x-2">
                       <i className="fas fa-check-circle text-green-500 mt-0.5"></i>
-                      <p>충분한 저장 공간을 확보하세요 (최소 100MB)</p>
+                      <p>{t('guide.installTips.tip2')}</p>
                     </div>
                     <div className="flex items-start space-x-2">
                       <i className="fas fa-check-circle text-green-500 mt-0.5"></i>
-                      <p>최신 운영체제에서 설치를 권장합니다</p>
+                      <p>{t('guide.installTips.tip3')}</p>
                     </div>
                   </div>
                 </div>

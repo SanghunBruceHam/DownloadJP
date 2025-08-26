@@ -10,7 +10,8 @@
   "header": {
     "title": "LINE 下载",
     "subtitle": "下载网站",
-    "searchPlaceholder": "搜索..."
+    "searchPlaceholder": "搜索...",
+    "searchNoResults": "未找到搜索结果"
   },
   "hero": {
     "title": {
@@ -209,6 +210,18 @@
         "tip2": "根据季节或活动更换主题来享受乐趣",
         "tip3": "与朋友使用相同主题，让对话更加有趣"
       }
+    },
+    "installTips": {
+      "title": "安装小贴士",
+      "tip1": "请在稳定的Wi-Fi连接环境下安装",
+      "tip2": "请确保充足的存储空间（至少100MB）",
+      "tip3": "建议在最新操作系统上安装"
+    },
+    "imageAlts": {
+      "googlePlayDownload": "在Google Play Store下载LINE",
+      "appStoreDownload": "在App Store下载LINE", 
+      "macAppStoreDownload": "在Mac App Store下载LINE",
+      "windowsInstaller": "Windows版LINE安装程序"
     }
   },
   "footer": {
