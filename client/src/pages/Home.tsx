@@ -25,7 +25,11 @@ export default function Home() {
       
       <main>
         <HeroSection />
-        <PlatformGrid />
+        
+        <FeaturesSection />
+        <InstallationGuide />
+        <DetailedGuide />
+        <FAQSection />
         
         {/* Middle Content Ad */}
         <section className="py-8 bg-gray-50">
@@ -39,11 +43,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-        
-        <FeaturesSection />
-        <InstallationGuide />
-        <DetailedGuide />
-        <FAQSection />
       </main>
 
       {/* Sidebar Ads (Desktop only) */}
@@ -63,6 +62,8 @@ export default function Home() {
           />
         </div>
       </div>
+      
+      <PlatformGrid />
       
       <Footer />
     </div>
