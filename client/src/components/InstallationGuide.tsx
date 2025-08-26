@@ -1,9 +1,24 @@
 import { useTranslation } from 'react-i18next';
 
 const steps = [
-  { number: 1, key: 'download' },
-  { number: 2, key: 'account' },
-  { number: 3, key: 'friends' },
+  { 
+    number: 1, 
+    key: 'download',
+    images: ['/images/guide/android-google-play.png', '/images/guide/ios-app-store.png'],
+    icon: 'fas fa-download'
+  },
+  { 
+    number: 2, 
+    key: 'account',
+    images: [],
+    icon: 'fas fa-user-plus'
+  },
+  { 
+    number: 3, 
+    key: 'friends',
+    images: [],
+    icon: 'fas fa-users'
+  },
 ];
 
 export default function InstallationGuide() {
@@ -20,15 +35,47 @@ export default function InstallationGuide() {
         <div className="grid md:grid-cols-3 gap-8">
           {steps.map((step) => (
             <div key={step.number} className="bg-white rounded-xl p-8 text-center shadow-sm">
-              <div className="w-16 h-16 line-green text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
-                {step.number}
+              <div className="w-16 h-16 line-green text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl">
+                <i className={step.icon}></i>
               </div>
+              
+              {/* Step Images */}
+              {step.number === 1 && (
+                <div className="mb-6">
+                  <div className="grid grid-cols-2 gap-3">
+                    <div className="bg-gray-50 rounded-lg p-2">
+                      <img 
+                        src="/images/guide/android-google-play.png" 
+                        alt="Google Play Store"
+                        className="w-full h-20 object-contain rounded"
+                        loading="lazy"
+                      />
+                      <p className="text-xs text-gray-500 mt-1">Android</p>
+                    </div>
+                    <div className="bg-gray-50 rounded-lg p-2">
+                      <img 
+                        src="/images/guide/ios-app-store.png" 
+                        alt="App Store"
+                        className="w-full h-20 object-contain rounded"
+                        loading="lazy"
+                      />
+                      <p className="text-xs text-gray-500 mt-1">iOS</p>
+                    </div>
+                  </div>
+                </div>
+              )}
+              
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
                 {t(`installation.steps.${step.key}.title`)}
               </h3>
               <p className="text-gray-600">
                 {t(`installation.steps.${step.key}.description`)}
               </p>
+              
+              {/* Step number indicator */}
+              <div className="mt-4 inline-flex items-center justify-center w-8 h-8 bg-line-green/10 text-line-green rounded-full text-sm font-bold">
+                {step.number}
+              </div>
             </div>
           ))}
         </div>

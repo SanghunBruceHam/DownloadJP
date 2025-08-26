@@ -5,12 +5,40 @@ import { useState } from 'react';
 function GuideImage({ 
   src, 
   alt, 
-  className = "w-full h-48 object-cover rounded-lg mb-4" 
+  className = "w-full h-48 object-cover rounded-lg mb-4",
+  fallback = true
 }: { 
   src: string; 
   alt: string; 
-  className?: string; 
+  className?: string;
+  fallback?: boolean;
 }) {
+  // Map of actual available images
+  const availableImages: Record<string, string> = {
+    '/images/guide/mobile-playstore.png': '/images/guide/android-google-play.png',
+    '/images/guide/mobile-appstore.png': '/images/guide/ios-app-store.png',
+    '/images/guide/mobile-app-dialog.png': '/images/guide/ios-app-store-dialog.png'
+  };
+
+  const actualSrc = availableImages[src];
+  
+  if (actualSrc) {
+    return (
+      <div className={className}>
+        <img 
+          src={actualSrc} 
+          alt={alt}
+          className="w-full h-full object-contain rounded-lg shadow-sm border border-gray-200"
+          loading="lazy"
+        />
+      </div>
+    );
+  }
+  
+  if (!fallback) {
+    return null;
+  }
+
   return (
     <div className={`${className} bg-gray-200 border-2 border-dashed border-gray-300 flex items-center justify-center`}>
       <div className="text-center p-4">
@@ -72,17 +100,30 @@ export default function DetailedGuide() {
                   </h3>
                   
                   {/* Mobile Screenshots */}
-                  <div className="grid grid-cols-2 gap-2 mb-4">
-                    <GuideImage 
-                      src="/images/guide/mobile-playstore.png" 
-                      alt="Google Play Store"
-                      className="h-32 bg-gray-100 rounded-lg flex items-center justify-center"
-                    />
-                    <GuideImage 
-                      src="/images/guide/mobile-appstore.png" 
-                      alt="Apple App Store"
-                      className="h-32 bg-gray-100 rounded-lg flex items-center justify-center"
-                    />
+                  <div className="space-y-3 mb-4">
+                    <div className="text-center">
+                      <h4 className="text-sm font-medium text-gray-700 mb-2">Android (Google Play)</h4>
+                      <GuideImage 
+                        src="/images/guide/mobile-playstore.png" 
+                        alt="Google Play Store에서 LINE 다운로드"
+                        className="h-48 bg-white rounded-lg border border-gray-300 p-2"
+                      />
+                    </div>
+                    <div className="text-center">
+                      <h4 className="text-sm font-medium text-gray-700 mb-2">iOS (App Store)</h4>
+                      <div className="space-y-2">
+                        <GuideImage 
+                          src="/images/guide/mobile-appstore.png" 
+                          alt="App Store에서 LINE 다운로드"
+                          className="h-48 bg-white rounded-lg border border-gray-300 p-2"
+                        />
+                        <GuideImage 
+                          src="/images/guide/mobile-app-dialog.png" 
+                          alt="App Store 열기 다이얼로그"
+                          className="h-16 bg-white rounded-lg border border-gray-300 p-2"
+                        />
+                      </div>
+                    </div>
                   </div>
                   
                   <div className="space-y-3 text-gray-600">
@@ -106,14 +147,17 @@ export default function DetailedGuide() {
                   
                   {/* Desktop Screenshots */}
                   <div className="mb-4">
+                    <div className="text-center mb-3">
+                      <h4 className="text-sm font-medium text-gray-700">PC 버전 다운로드</h4>
+                    </div>
                     <GuideImage 
                       src="/images/guide/desktop-download.png" 
-                      alt="Desktop Download Page"
+                      alt="PC 버전 다운로드 페이지"
                       className="h-32 bg-gray-100 rounded-lg flex items-center justify-center mb-2"
                     />
                     <GuideImage 
                       src="/images/guide/desktop-installer.png" 
-                      alt="Installer Process"
+                      alt="설치 프로그램 실행"
                       className="h-24 bg-gray-100 rounded-lg flex items-center justify-center"
                     />
                   </div>
