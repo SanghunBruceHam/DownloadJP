@@ -33,7 +33,7 @@ export default function AdBanner({
         ref={adRef}
         className="adsbygoogle"
         style={{ display: 'block', ...style }}
-        data-ad-client={import.meta.env.VITE_ADSENSE_CLIENT_ID || "ca-pub-XXXXXXXXXXXXXXXX"}
+        data-ad-client={import.meta.env.VITE_ADSENSE_CLIENT_ID || "ca-pub-4231271863101355"}
         data-ad-slot={slot}
         data-ad-format={format}
         data-full-width-responsive={responsive ? "true" : "false"}
