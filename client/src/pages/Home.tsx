@@ -55,23 +55,6 @@ export default function Home() {
         </section>
       </main>
 
-      {/* Sidebar Ads (Desktop only) */}
-      <div className="hidden xl:block fixed right-4 top-1/2 transform -translate-y-1/2 w-64 space-y-4 z-10">
-        <div className="bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
-          <AdBanner 
-            slot="1234567893"
-            format="rectangle"
-            style={{ minHeight: '250px' }}
-          />
-        </div>
-        <div className="bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
-          <AdBanner 
-            slot="1234567894"
-            format="rectangle"
-            style={{ minHeight: '250px' }}
-          />
-        </div>
-      </div>
       
       <section id="platforms-section">
         <PlatformGrid />
