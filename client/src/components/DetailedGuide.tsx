@@ -221,7 +221,7 @@ export default function DetailedGuide() {
                   fallback={false}
                 />
               </div>
-              */
+              */}
 
               <div className="grid md:grid-cols-3 gap-8">
                 {['basic', 'chat', 'calls'].map((section) => (
@@ -240,7 +240,7 @@ export default function DetailedGuide() {
                         fallback={false}
                       />
                     </div>
-                    */
+                    */}
                     
                     <div className="space-y-3 text-gray-600">
                       {Array.from({ length: 3 }, (_, i) => (
@@ -300,7 +300,7 @@ export default function DetailedGuide() {
                       fallback={false}
                     />
                   </div>
-                  */
+                  */}
                   
                   <div className="space-y-3 text-gray-600">
                     {Array.from({ length: 5 }, (_, i) => (
@@ -336,7 +336,7 @@ export default function DetailedGuide() {
                       fallback={false}
                     />
                   </div>
-                  */
+                  */}
                   
                   <div className="space-y-3 text-gray-600">
                     {Array.from({ length: 4 }, (_, i) => (
