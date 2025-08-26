@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useLocation } from 'wouter';
 
 const languages = [
   { code: 'ja', name: '日本語', flag: '🇯🇵' },
@@ -14,6 +15,7 @@ const languages = [
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const [, setLocation] = useLocation();
   
   const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0];
   
@@ -23,6 +25,13 @@ export default function LanguageSwitcher() {
     
     // Update document language
     document.documentElement.lang = langCode;
+    
+    // Update URL for SEO and direct access
+    if (langCode === 'ja') {
+      setLocation('/');
+    } else {
+      setLocation(`/${langCode}`);
+    }
   };
 
   return (

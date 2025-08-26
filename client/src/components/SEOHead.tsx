@@ -34,7 +34,15 @@ export default function SEOHead({
     'LINE 下載', 'LINE 응용 프로그램', 'LINE تحميل', 'LINE डाउनलोड'
   ].join(', ');
   
-  const currentUrl = typeof window !== 'undefined' ? window.location.href : 'https://download-line.com';
+  // Generate current URL based on language
+  const getLanguageUrl = (lang: string) => {
+    const baseUrl = 'https://download-line.com';
+    return lang === 'ja' ? baseUrl : `${baseUrl}/${lang}`;
+  };
+  
+  const currentUrl = typeof window !== 'undefined' 
+    ? window.location.href 
+    : getLanguageUrl(i18n.language);
   const siteName = 'LINEダウンロード - LINE Download - 라인 다운로드';
 
   return (
@@ -104,20 +112,20 @@ export default function SEOHead({
       <meta name="twitter:creator" content="@LINE_official" />
       
       {/* Canonical and Alternate URLs - Japan as default */}
-      <link rel="canonical" href="https://download-line.com/" />
-      <link rel="alternate" hrefLang="ja" href="https://download-line.com/" />
-      <link rel="alternate" hrefLang="ja-JP" href="https://download-line.com/" />
-      <link rel="alternate" hrefLang="en" href="https://download-line.com/en" />
-      <link rel="alternate" hrefLang="en-US" href="https://download-line.com/en" />
-      <link rel="alternate" hrefLang="ko" href="https://download-line.com/ko" />
-      <link rel="alternate" hrefLang="ko-KR" href="https://download-line.com/ko" />
-      <link rel="alternate" hrefLang="zh-CN" href="https://download-line.com/zh" />
-      <link rel="alternate" hrefLang="th" href="https://download-line.com/th" />
-      <link rel="alternate" hrefLang="th-TH" href="https://download-line.com/th" />
-      <link rel="alternate" hrefLang="id" href="https://download-line.com/id" />
-      <link rel="alternate" hrefLang="id-ID" href="https://download-line.com/id" />
-      <link rel="alternate" hrefLang="zh-TW" href="https://download-line.com/tw" />
-      <link rel="alternate" hrefLang="x-default" href="https://download-line.com/" />
+      <link rel="canonical" href={getLanguageUrl(i18n.language)} />
+      <link rel="alternate" hrefLang="ja" href={getLanguageUrl('ja')} />
+      <link rel="alternate" hrefLang="ja-JP" href={getLanguageUrl('ja')} />
+      <link rel="alternate" hrefLang="en" href={getLanguageUrl('en')} />
+      <link rel="alternate" hrefLang="en-US" href={getLanguageUrl('en')} />
+      <link rel="alternate" hrefLang="ko" href={getLanguageUrl('ko')} />
+      <link rel="alternate" hrefLang="ko-KR" href={getLanguageUrl('ko')} />
+      <link rel="alternate" hrefLang="zh-CN" href={getLanguageUrl('zh')} />
+      <link rel="alternate" hrefLang="th" href={getLanguageUrl('th')} />
+      <link rel="alternate" hrefLang="th-TH" href={getLanguageUrl('th')} />
+      <link rel="alternate" hrefLang="id" href={getLanguageUrl('id')} />
+      <link rel="alternate" hrefLang="id-ID" href={getLanguageUrl('id')} />
+      <link rel="alternate" hrefLang="zh-TW" href={getLanguageUrl('tw')} />
+      <link rel="alternate" hrefLang="x-default" href={getLanguageUrl('ja')} />
       
       {/* JSON-LD Structured Data - Japanese Focused */}
       <script
