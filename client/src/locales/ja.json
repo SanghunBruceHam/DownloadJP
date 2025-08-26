@@ -53,13 +53,6 @@
       "name": "macOS",
       "requirements": "macOS 12.0以上"
     },
-    "web": {
-      "name": "Web版",
-      "requirements": "ブラウザ対応",
-      "title": "LINE Web版",
-      "description": "ブラウザでLINEを使用 - インストール不要",
-      "button": "Web版を開く"
-    }
   },
   "features": {
     "title": "LINEの主な機能",
@@ -231,7 +224,6 @@
       "ios": "iOS版",
       "windows": "Windows版",
       "mac": "Mac版",
-      "web": "Web版",
       "help": "ヘルプセンター",
       "faq": "よくある質問",
       "guide": "インストールガイド",

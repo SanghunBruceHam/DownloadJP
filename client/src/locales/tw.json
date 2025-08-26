@@ -52,13 +52,6 @@
     "mac": {
       "name": "macOS",
       "requirements": "macOS 12.0 或更高版本"
-    },
-    "web": {
-      "name": "網頁版",
-      "requirements": "瀏覽器相容",
-      "title": "LINE 網頁版",
-      "description": "在瀏覽器中使用 LINE - 無需安裝",
-      "button": "開啟網頁版"
     }
   },
   "features": {
@@ -231,7 +224,6 @@
       "ios": "iOS 版",
       "windows": "Windows 版",
       "mac": "Mac 版",
-      "web": "網頁版",
       "help": "幫助中心",
       "faq": "常見問題",
       "guide": "安裝指南",

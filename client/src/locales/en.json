@@ -52,13 +52,6 @@
     "mac": {
       "name": "macOS",
       "requirements": "macOS 12.0 or later"
-    },
-    "web": {
-      "name": "Web Version",
-      "requirements": "Browser compatible",
-      "title": "LINE Web Version",
-      "description": "Use LINE in your browser - No installation required",
-      "button": "Open Web Version"
     }
   },
   "features": {
@@ -231,7 +224,6 @@
       "ios": "iOS Version",
       "windows": "Windows Version",
       "mac": "Mac Version",
-      "web": "Web Version",
       "help": "Help Center",
       "faq": "FAQ",
       "guide": "Installation Guide",

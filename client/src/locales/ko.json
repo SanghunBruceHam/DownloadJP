@@ -52,13 +52,6 @@
     "mac": {
       "name": "macOS",
       "requirements": "macOS 12.0 이상"
-    },
-    "web": {
-      "name": "웹 버전",
-      "requirements": "브라우저 지원",
-      "title": "LINE 웹 버전",
-      "description": "브라우저에서 LINE 사용 - 설치 불필요",
-      "button": "웹 버전 열기"
     }
   },
   "features": {
@@ -231,7 +224,6 @@
       "ios": "iOS 버전",
       "windows": "Windows 버전",
       "mac": "Mac 버전",
-      "web": "웹 버전",
       "help": "도움말 센터",
       "faq": "자주 묻는 질문",
       "guide": "설치 가이드",

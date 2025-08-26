@@ -52,13 +52,6 @@
     "mac": {
       "name": "macOS",
       "requirements": "macOS 12.0 atau lebih baru"
-    },
-    "web": {
-      "name": "Versi Web",
-      "requirements": "Kompatibel browser",
-      "title": "LINE Versi Web",
-      "description": "Gunakan LINE di browser Anda - Tidak perlu instalasi",
-      "button": "Buka Versi Web"
     }
   },
   "features": {
@@ -231,7 +224,6 @@
       "ios": "Versi iOS",
       "windows": "Versi Windows",
       "mac": "Versi Mac",
-      "web": "Versi Web",
       "help": "Pusat Bantuan",
       "faq": "FAQ",
       "guide": "Panduan Instalasi",

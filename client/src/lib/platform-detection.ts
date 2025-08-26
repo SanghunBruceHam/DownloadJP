@@ -1,4 +1,4 @@
-export type Platform = 'android' | 'ios' | 'windows' | 'mac' | 'web';
+export type Platform = 'android' | 'ios' | 'windows' | 'mac';
 
 export interface PlatformInfo {
   name: string;
@@ -22,7 +22,7 @@ export function detectPlatform(): Platform {
     return 'mac';
   }
   
-  return 'web';
+  return 'windows';
 }
 
 export function getPlatformInfo(platform: Platform, t: (key: string) => string): PlatformInfo {
@@ -58,14 +58,6 @@ export function getPlatformInfo(platform: Platform, t: (key: string) => string):
       downloadUrl: 'https://apps.apple.com/app/line/id539883307',
       storeIcon: 'fab fa-app-store',
       requirements: t('platforms.mac.requirements'),
-    },
-    web: {
-      name: t('platforms.web.name'),
-      platform: 'web',
-      icon: 'fas fa-globe',
-      downloadUrl: 'https://chrome.line.me/',
-      storeIcon: 'fas fa-globe',
-      requirements: t('platforms.web.requirements'),
     },
   };
   

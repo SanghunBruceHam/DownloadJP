@@ -52,13 +52,6 @@
     "mac": {
       "name": "macOS",
       "requirements": "macOS 12.0 或更高版本"
-    },
-    "web": {
-      "name": "网页版",
-      "requirements": "浏览器支持",
-      "title": "LINE 网页版",
-      "description": "在浏览器中使用 LINE - 无需安装",
-      "button": "打开网页版"
     }
   },
   "features": {
@@ -231,7 +224,6 @@
       "ios": "iOS 版",
       "windows": "Windows 版",
       "mac": "Mac 版",
-      "web": "网页版",
       "help": "帮助中心",
       "faq": "常见问题",
       "guide": "安装指南",

@@ -50,19 +50,6 @@ export default function PlatformGrid() {
             </div>
           ))}
         </div>
-        
-        {/* Web Version */}
-        <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-xl p-8 text-center">
-          <h3 className="text-2xl font-bold text-gray-900 mb-2">{t('platforms.web.title')}</h3>
-          <p className="text-gray-600 mb-6">{t('platforms.web.description')}</p>
-          <button 
-            onClick={() => handleDownload('web', 'https://chrome.line.me/')}
-            className="bg-white text-line-green border-2 border-line-green py-3 px-8 rounded-lg hover:bg-line-green hover:text-white transition-colors font-medium"
-          >
-            <i className="fas fa-globe mr-2"></i>
-            {t('platforms.web.button')}
-          </button>
-        </div>
       </div>
     </section>
   );

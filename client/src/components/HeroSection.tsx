@@ -5,7 +5,7 @@ import { apiRequest } from '../lib/queryClient';
 
 export default function HeroSection() {
   const { t } = useTranslation();
-  const [detectedPlatform, setDetectedPlatform] = useState<Platform>('web');
+  const [detectedPlatform, setDetectedPlatform] = useState<Platform>('windows');
   
   useEffect(() => {
     const platform = detectPlatform();
