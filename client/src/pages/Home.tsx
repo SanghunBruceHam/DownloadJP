@@ -6,6 +6,7 @@ import PlatformGrid from '../components/PlatformGrid';
 import AdBanner from '../components/AdBanner';
 import FeaturesSection from '../components/FeaturesSection';
 import InstallationGuide from '../components/InstallationGuide';
+import DetailedGuide from '../components/DetailedGuide';
 import FAQSection from '../components/FAQSection';
 import Footer from '../components/Footer';
 
@@ -41,6 +42,7 @@ export default function Home() {
         
         <FeaturesSection />
         <InstallationGuide />
+        <DetailedGuide />
         <FAQSection />
       </main>
 

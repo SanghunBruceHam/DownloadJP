@@ -131,6 +131,93 @@
       }
     }
   },
+  "guide": {
+    "title": "Detailed Guide",
+    "description": "Complete guide to make the most out of LINE",
+    "categories": {
+      "installation": "Installation",
+      "usage": "How to Use",
+      "login": "Login Guide",
+      "themes": "Theme Settings"
+    },
+    "installation": {
+      "mobile": {
+        "title": "Mobile Installation",
+        "step1": "Open App Store or Google Play on your device",
+        "step2": "Search for 'LINE' in the search bar",
+        "step3": "Find the LINE app and tap 'Install' button",
+        "step4": "Once installed, open the app and complete initial setup"
+      },
+      "desktop": {
+        "title": "Desktop Installation",
+        "step1": "Download the PC version from LINE official website",
+        "step2": "Run the downloaded installer file",
+        "step3": "Follow the installation wizard to complete setup",
+        "step4": "Launch the app and login with QR code or email"
+      }
+    },
+    "usage": {
+      "basic": {
+        "title": "Basic Usage",
+        "tip1": "Set profile photo and name to help friends find you easily",
+        "tip2": "Share your mood or status with status messages",
+        "tip3": "Check friends' updates on timeline and give likes or comments"
+      },
+      "chat": {
+        "title": "Chat Features",
+        "tip1": "Express emotions richly with stickers and emojis",
+        "tip2": "Enjoy conversations together in group chats with friends and family",
+        "tip3": "Easily send and receive photos, videos, and files"
+      },
+      "calls": {
+        "title": "Call Features",
+        "tip1": "Chat with friends worldwide through free voice calls",
+        "tip2": "Have more intimate communication with video calls face-to-face",
+        "tip3": "Chat together with everyone in group calls"
+      }
+    },
+    "login": {
+      "newUser": {
+        "title": "New User Registration",
+        "step1": "Open LINE app and tap 'New Registration'",
+        "step2": "Enter phone number and receive SMS verification code",
+        "step3": "Enter the received verification code to complete identity verification",
+        "step4": "Set profile name and profile photo",
+        "step5": "Choose friend auto-add settings and complete registration"
+      },
+      "existing": {
+        "title": "Existing Account Login",
+        "step1": "Open LINE app and tap 'Login'",
+        "step2": "Enter your registered phone number or email address",
+        "step3": "Enter password to complete login",
+        "step4": "Complete identity verification with SMS code if required"
+      }
+    },
+    "themes": {
+      "change": {
+        "title": "How to Change Themes",
+        "step1": "Open LINE app and tap 'Settings' (Home) tab in bottom right",
+        "step2": "Select 'Display' from the settings menu",
+        "step3": "Tap 'Themes' to display theme list",
+        "step4": "Select your favorite theme and tap 'Apply'",
+        "step5": "Preview and tap 'Apply' to save changes",
+        "step6": "Theme is applied and LINE's overall design changes"
+      },
+      "custom": {
+        "title": "Custom Theme Download",
+        "step1": "Search for your favorite themes on LINE STORE",
+        "step2": "Tap 'Download' for free themes, 'Purchase' for paid themes",
+        "step3": "After download completion, apply from LINE app's theme settings",
+        "step4": "Change themes anytime from My Themes"
+      },
+      "tips": {
+        "title": "Theme Customization Tips",
+        "tip1": "Reduce eye fatigue with dark mode and light mode",
+        "tip2": "Enjoy changing themes according to seasons or events",
+        "tip3": "Make conversations more fun with matching themes with friends"
+      }
+    }
+  },
   "footer": {
     "brand": "LINE Download",
     "description": "Secure LINE app download guide. Compatible with all platforms. This site is not affiliated with LINE Corporation.",
