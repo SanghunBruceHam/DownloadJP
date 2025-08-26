@@ -43,3 +43,36 @@ Preferred communication style: Simple, everyday language.
 - **Analytics**: Google AdSense integration for advertisement revenue
 - **Build Tools**: Vite for development server and production builds
 - **Deployment**: Replit hosting with environment-specific configurations
+
+## Deployment Configuration
+
+### Build Process
+The project uses a dual-build strategy to support both full-stack and static deployment:
+
+1. **Vite Build**: Compiles React frontend to `dist/public/`
+2. **esbuild**: Compiles Express server to `dist/index.js`
+3. **Post-build Script**: Copies client files to `dist/` root for static deployment compatibility
+
+### File Structure After Build
+```
+dist/
+├── index.html          # Client entry point (copied for static deployment)
+├── assets/             # Client assets (copied for static deployment)
+├── index.js            # Server entry point for full-stack deployment
+└── public/             # Client files served by Express in production
+    ├── index.html      # Original client entry point
+    └── assets/         # Original client assets
+```
+
+### Deployment Types Supported
+- **Full-stack (Recommended)**: Uses Express server to serve both API and client files
+- **Static (Fallback)**: Serves only client files from `dist/` root
+
+### Build Commands
+- Development: `npm run dev` (starts both client and server)
+- Production Build: `npm run build` (builds both client and server)
+- Post-build Setup: `node scripts/post-build.js` (copies files for static compatibility)
+
+### Known Issues Fixed
+- ✅ Resolved: Build output placement for static deployment compatibility
+- ✅ Resolved: File structure alignment between server expectations and deployment requirements
