@@ -17,7 +17,8 @@ function GuideImage({
   const availableImages: Record<string, string> = {
     '/images/guide/mobile-playstore.png': '/images/guide/android-google-play.png',
     '/images/guide/mobile-appstore.png': '/images/guide/ios-app-store.png',
-    '/images/guide/mobile-app-dialog.png': '/images/guide/ios-app-store-dialog.png'
+    '/images/guide/desktop-download.png': '/images/guide/mac-app-store.png',
+    '/images/guide/mac-appstore.png': '/images/guide/mac-app-store.png'
   };
 
   const actualSrc = availableImages[src];
@@ -111,18 +112,11 @@ export default function DetailedGuide() {
                     </div>
                     <div className="text-center">
                       <h4 className="text-sm font-medium text-gray-700 mb-2">iOS (App Store)</h4>
-                      <div className="space-y-2">
-                        <GuideImage 
-                          src="/images/guide/mobile-appstore.png" 
-                          alt="App Store에서 LINE 다운로드"
-                          className="h-48 bg-white rounded-lg border border-gray-300 p-2"
-                        />
-                        <GuideImage 
-                          src="/images/guide/mobile-app-dialog.png" 
-                          alt="App Store 열기 다이얼로그"
-                          className="h-16 bg-white rounded-lg border border-gray-300 p-2"
-                        />
-                      </div>
+                      <GuideImage 
+                        src="/images/guide/mobile-appstore.png" 
+                        alt="App Store에서 LINE 다운로드"
+                        className="h-48 bg-white rounded-lg border border-gray-300 p-2"
+                      />
                     </div>
                   </div>
                   
@@ -147,19 +141,24 @@ export default function DetailedGuide() {
                   
                   {/* Desktop Screenshots */}
                   <div className="mb-4">
-                    <div className="text-center mb-3">
-                      <h4 className="text-sm font-medium text-gray-700">PC 버전 다운로드</h4>
+                    <div className="space-y-3">
+                      <div className="text-center">
+                        <h4 className="text-sm font-medium text-gray-700 mb-2">macOS (Mac App Store)</h4>
+                        <GuideImage 
+                          src="/images/guide/desktop-download.png" 
+                          alt="Mac App Store에서 LINE 다운로드"
+                          className="h-48 bg-white rounded-lg border border-gray-300 p-2"
+                        />
+                      </div>
+                      <div className="text-center">
+                        <h4 className="text-sm font-medium text-gray-700 mb-2">Windows PC</h4>
+                        <GuideImage 
+                          src="/images/guide/desktop-installer.png" 
+                          alt="Windows용 LINE 설치 프로그램"
+                          className="h-32 bg-gray-100 rounded-lg flex items-center justify-center"
+                        />
+                      </div>
                     </div>
-                    <GuideImage 
-                      src="/images/guide/desktop-download.png" 
-                      alt="PC 버전 다운로드 페이지"
-                      className="h-32 bg-gray-100 rounded-lg flex items-center justify-center mb-2"
-                    />
-                    <GuideImage 
-                      src="/images/guide/desktop-installer.png" 
-                      alt="설치 프로그램 실행"
-                      className="h-24 bg-gray-100 rounded-lg flex items-center justify-center"
-                    />
                   </div>
                   
                   <div className="space-y-3 text-gray-600">

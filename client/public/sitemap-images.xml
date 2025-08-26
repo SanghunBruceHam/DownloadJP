@@ -33,9 +33,9 @@
       <image:license>https://download-line.com</image:license>
     </image:image>
     <image:image>
-      <image:loc>https://download-line.com/images/guide/ios-app-store-dialog.png</image:loc>
-      <image:title>App Store アプリ起動ダイアログ</image:title>
-      <image:caption>App Store を開く際の確認ダイアログ</image:caption>
+      <image:loc>https://download-line.com/images/guide/mac-app-store.png</image:loc>
+      <image:title>Mac App Store での LINE ダウンロード</image:title>
+      <image:caption>macOS で Mac App Store から LINE をダウンロードする方法</image:caption>
       <image:license>https://download-line.com</image:license>
     </image:image>
   </url>

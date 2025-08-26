@@ -42,24 +42,33 @@ export default function InstallationGuide() {
               {/* Step Images */}
               {step.number === 1 && (
                 <div className="mb-6">
-                  <div className="grid grid-cols-2 gap-3">
+                  <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
                     <div className="bg-gray-50 rounded-lg p-2">
                       <img 
                         src="/images/guide/android-google-play.png" 
                         alt="Google Play Store"
-                        className="w-full h-20 object-contain rounded"
+                        className="w-full h-16 object-contain rounded"
                         loading="lazy"
                       />
-                      <p className="text-xs text-gray-500 mt-1">Android</p>
+                      <p className="text-xs text-gray-500 mt-1 text-center">Android</p>
                     </div>
                     <div className="bg-gray-50 rounded-lg p-2">
                       <img 
                         src="/images/guide/ios-app-store.png" 
                         alt="App Store"
-                        className="w-full h-20 object-contain rounded"
+                        className="w-full h-16 object-contain rounded"
                         loading="lazy"
                       />
-                      <p className="text-xs text-gray-500 mt-1">iOS</p>
+                      <p className="text-xs text-gray-500 mt-1 text-center">iOS</p>
+                    </div>
+                    <div className="bg-gray-50 rounded-lg p-2">
+                      <img 
+                        src="/images/guide/mac-app-store.png" 
+                        alt="Mac App Store"
+                        className="w-full h-16 object-contain rounded"
+                        loading="lazy"
+                      />
+                      <p className="text-xs text-gray-500 mt-1 text-center">macOS</p>
                     </div>
                   </div>
                 </div>
