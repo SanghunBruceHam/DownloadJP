@@ -3,13 +3,13 @@
     "currentLanguage": "ja"
   },
   "seo": {
-    "title": "LINE ダウンロード - 公式アプリを無料でダウンロード",
-    "description": "LINE公式アプリを無料でダウンロード。スマートフォン、PC、タブレットに対応。安全で高速なダウンロードリンクを提供。",
+    "title": "LINE ダウンロード - アプリを無料でダウンロード",
+    "description": "LINEアプリを無料でダウンロード。スマートフォン、PC、タブレットに対応。安全で高速なダウンロードリンクを提供。",
     "keywords": "LINE, ダウンロード, アプリ, 無料, チャット, 通話"
   },
   "header": {
     "title": "LINE ダウンロード",
-    "subtitle": "公式ダウンロードサイト",
+    "subtitle": "ダウンロードサイト",
     "searchPlaceholder": "検索..."
   },
   "hero": {
@@ -133,7 +133,7 @@
   },
   "footer": {
     "brand": "LINE ダウンロード",
-    "description": "公式LINEアプリの安全なダウンロードサイト。すべてのプラットフォームに対応。",
+    "description": "LINEアプリの安全なダウンロードサイト。すべてのプラットフォームに対応。",
     "sections": {
       "download": "ダウンロード",
       "support": "サポート",

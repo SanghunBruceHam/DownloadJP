@@ -3,13 +3,13 @@
     "currentLanguage": "en"
   },
   "seo": {
-    "title": "LINE Download - Download Official App for Free",
-    "description": "Download the official LINE app for free. Compatible with smartphones, PCs, and tablets. Providing safe and fast download links.",
+    "title": "LINE Download - Download App for Free",
+    "description": "Download the LINE app for free. Compatible with smartphones, PCs, and tablets. Providing safe and fast download links.",
     "keywords": "LINE, download, app, free, chat, call"
   },
   "header": {
     "title": "LINE Download",
-    "subtitle": "Official Download Site",
+    "subtitle": "Download Site",
     "searchPlaceholder": "Search..."
   },
   "hero": {
@@ -133,7 +133,7 @@
   },
   "footer": {
     "brand": "LINE Download",
-    "description": "Official and secure LINE app download site. Compatible with all platforms.",
+    "description": "Secure LINE app download site. Compatible with all platforms.",
     "sections": {
       "download": "Download",
       "support": "Support",

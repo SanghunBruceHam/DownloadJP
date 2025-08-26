@@ -3,13 +3,13 @@
     "currentLanguage": "zh"
   },
   "seo": {
-    "title": "LINE 下载 - 免费下载官方应用",
-    "description": "免费下载 LINE 官方应用。支持智能手机、PC、平板电脑。提供安全快速的下载链接。",
+    "title": "LINE 下载 - 免费下载应用",
+    "description": "免费下载 LINE 应用。支持智能手机、PC、平板电脑。提供安全快速的下载链接。",
     "keywords": "LINE, 下载, 应用, 免费, 聊天, 通话"
   },
   "header": {
     "title": "LINE 下载",
-    "subtitle": "官方下载网站",
+    "subtitle": "下载网站",
     "searchPlaceholder": "搜索..."
   },
   "hero": {
@@ -133,7 +133,7 @@
   },
   "footer": {
     "brand": "LINE 下载",
-    "description": "官方 LINE 应用的安全下载网站。支持所有平台。",
+    "description": "LINE 应用的安全下载网站。支持所有平台。",
     "sections": {
       "download": "下载",
       "support": "支持",
