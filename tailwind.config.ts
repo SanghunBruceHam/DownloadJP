@@ -89,8 +89,5 @@ export default {
       },
     },
   },
-  plugins: [
-    import("tailwindcss-animate").then(m => m.default || m),
-    import("@tailwindcss/typography").then(m => m.default || m)
-  ],
+  plugins: [],
 } satisfies Config;
