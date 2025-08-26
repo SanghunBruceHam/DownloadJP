@@ -19,13 +19,23 @@ export default function AdBanner({
 
   useEffect(() => {
     try {
-      if (typeof window !== 'undefined' && (window as any).adsbygoogle) {
+      // Only load ads in production environment
+      if (import.meta.env.PROD && typeof window !== 'undefined' && (window as any).adsbygoogle) {
         ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
       }
     } catch (error) {
       console.error('AdSense error:', error);
     }
   }, []);
+
+  // Show placeholder in development
+  if (!import.meta.env.PROD) {
+    return (
+      <div className={`ad-container ${className} bg-gray-100 border-2 border-dashed border-gray-300 flex items-center justify-center`} style={style}>
+        <span className="text-gray-500 text-sm">Ad Placeholder (Dev Mode)</span>
+      </div>
+    );
+  }
 
   return (
     <div className={`ad-container ${className}`} style={style}>
