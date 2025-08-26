@@ -1,8 +1,28 @@
 User-agent: *
 Allow: /
+Allow: /ja
+Allow: /en  
+Allow: /ko
+Allow: /zh
+Allow: /th
+Allow: /id
+Allow: /tw
+
+# Block specific files/folders (if any)
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /src/
+Disallow: /node_modules/
 
 # Sitemaps
 Sitemap: https://download-line.com/sitemap.xml
 
-# Crawl-delay (optional)
+# Crawl-delay for better server performance
 Crawl-delay: 1
+
+# Cache policy (optional)
+# Allow caching of static resources
+User-agent: Googlebot
+Allow: /images/
+Allow: /css/
+Allow: /js/
