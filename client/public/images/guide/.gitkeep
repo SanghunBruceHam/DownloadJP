@@ -1,0 +1,26 @@
+# Guide Images Directory
+
+This directory contains images used in the DetailedGuide component.
+
+## Image Categories:
+
+### Installation
+- mobile-playstore.png - Google Play Store screenshot
+- mobile-appstore.png - Apple App Store screenshot  
+- desktop-download.png - Desktop download page
+- desktop-installer.png - Windows/Mac installer
+
+### Usage  
+- line-interface.png - Main LINE interface
+- chat-features.png - Chat and messaging features
+- call-features.png - Voice/video call features
+
+### Login
+- signup-screen.png - New user registration screen
+- login-screen.png - Existing user login screen
+- qr-login.png - QR code login process
+
+### Themes
+- theme-settings.png - Theme settings screen
+- theme-store.png - LINE theme store
+- theme-examples.png - Different theme examples
