@@ -7,6 +7,10 @@ import { I18nextProvider } from "react-i18next";
 import { Suspense, useEffect } from "react";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
+import About from "@/pages/About";
+import Contact from "@/pages/Contact";
+import Privacy from "@/pages/Privacy";
+import Terms from "@/pages/Terms";
 import i18n from "./lib/i18n";
 
 function Router() {
@@ -35,7 +39,15 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
+      <Route path="/about" component={About} />
+      <Route path="/contact" component={Contact} />
+      <Route path="/privacy" component={Privacy} />
+      <Route path="/terms" component={Terms} />
       <Route path="/:lang(ja|en|ko|zh|th|id|tw)" component={Home} />
+      <Route path="/:lang(ja|en|ko|zh|th|id|tw)/about" component={About} />
+      <Route path="/:lang(ja|en|ko|zh|th|id|tw)/contact" component={Contact} />
+      <Route path="/:lang(ja|en|ko|zh|th|id|tw)/privacy" component={Privacy} />
+      <Route path="/:lang(ja|en|ko|zh|th|id|tw)/terms" component={Terms} />
       <Route component={NotFound} />
     </Switch>
   );

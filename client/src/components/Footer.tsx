@@ -1,9 +1,11 @@
 import { useTranslation } from 'react-i18next';
+import { useLocation } from 'wouter';
 import AdBanner from './AdBanner';
 import { getPlatformInfo, type Platform } from '../lib/platform-detection';
 
 export default function Footer() {
   const { t, i18n } = useTranslation();
+  const [, setLocation] = useLocation();
 
   const downloadPlatforms: Platform[] = ['android', 'ios', 'windows', 'mac'];
   const languages = [
@@ -104,7 +106,15 @@ export default function Footer() {
               </li>
               <li>
                 <button 
-                  onClick={() => window.open('mailto:contact@download-line.com')}
+                  onClick={() => setLocation('/about')}
+                  className="hover:text-white transition-colors"
+                >
+                  {t('footer.links.about')}
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => setLocation('/contact')}
                   className="hover:text-white transition-colors"
                 >
                   {t('footer.links.contact')}
@@ -138,13 +148,13 @@ export default function Footer() {
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <button 
-              onClick={() => window.open('https://line.me/en/terms/', '_blank')}
+              onClick={() => setLocation('/privacy')}
               className="text-gray-400 hover:text-white transition-colors text-sm"
             >
               {t('footer.legal.privacy')}
             </button>
             <button 
-              onClick={() => window.open('https://line.me/en/terms/', '_blank')}
+              onClick={() => setLocation('/terms')}
               className="text-gray-400 hover:text-white transition-colors text-sm"
             >
               {t('footer.legal.terms')}

@@ -55,7 +55,7 @@ export default function SEOHead({
       <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
       <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
       <meta name="author" content="LINEダウンロードガイド" />
-      <meta name="publisher" content="Download-LINE.com - LINEダウンロード公式ガイド" />
+      <meta name="publisher" content="Download-LINE.com - LINEダウンロードガイド" />
       <meta name="application-name" content="LINEダウンロードガイド" />
       <meta name="apple-mobile-web-app-title" content="LINEダウンロード" />
       <meta name="mobile-web-app-capable" content="yes" />
@@ -156,13 +156,8 @@ export default function SEOHead({
             },
             author: {
               '@type': 'Organization',
-              name: 'LINE Corporation',
-              url: 'https://linecorp.com/',
-              sameAs: [
-                'https://line.me/',
-                'https://twitter.com/LINE_official',
-                'https://www.facebook.com/line.official'
-              ]
+              name: 'Download-LINE.com',
+              url: 'https://download-line.com'
             },
             downloadUrl: [
               'https://apps.apple.com/jp/app/line/id443904275',
