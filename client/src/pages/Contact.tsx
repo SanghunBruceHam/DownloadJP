@@ -7,7 +7,8 @@ export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    message: ''
+    message: '',
+    _gotcha: '' // honeypot field
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -16,16 +17,46 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission (replace with actual form service)
-    setTimeout(() => {
+    try {
+      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+          _subject: `LINE ガイドサイトからのお問い合わせ - ${formData.name}様`,
+          _gotcha: formData._gotcha,
+          _replyto: formData.email,
+          _language: 'ja',
+          _template: 'basic'
+        }),
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+        setFormData({ name: '', email: '', message: '', _gotcha: '' });
+      } else {
+        throw new Error('Failed to send message');
+      }
+    } catch (error) {
+      console.error('Error sending message:', error);
+      alert(t('contact.form.error') || '送信に失敗しました。後でもう一度お試しください。');
+    } finally {
       setIsSubmitting(false);
-      setSubmitted(true);
-      setFormData({ name: '', email: '', message: '' });
-    }, 1000);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
+    
+    // Character limit for message field
+    if (name === 'message' && value.length > 2000) {
+      return;
+    }
+    
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
@@ -78,6 +109,17 @@ export default function Contact() {
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-6">
+                    {/* Honeypot field for spam protection */}
+                    <input
+                      type="text"
+                      name="_gotcha"
+                      value={formData._gotcha}
+                      onChange={handleChange}
+                      style={{ display: 'none' }}
+                      tabIndex={-1}
+                      autoComplete="off"
+                    />
+                    
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
                         {t('contact.form.name')} *
@@ -89,8 +131,9 @@ export default function Contact() {
                         required
                         value={formData.name}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-line-green focus:border-transparent"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-line-green focus:border-transparent transition-colors"
                         placeholder={t('contact.form.namePlaceholder')}
+                        disabled={isSubmitting}
                       />
                     </div>
 
@@ -105,8 +148,9 @@ export default function Contact() {
                         required
                         value={formData.email}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-line-green focus:border-transparent"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-line-green focus:border-transparent transition-colors"
                         placeholder={t('contact.form.emailPlaceholder')}
+                        disabled={isSubmitting}
                       />
                     </div>
 
@@ -121,9 +165,13 @@ export default function Contact() {
                         rows={6}
                         value={formData.message}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-line-green focus:border-transparent resize-vertical"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-line-green focus:border-transparent resize-vertical transition-colors"
                         placeholder={t('contact.form.messagePlaceholder')}
+                        disabled={isSubmitting}
                       />
+                      <div className="text-xs text-gray-500 mt-1">
+                        {formData.message.length}/2000
+                      </div>
                     </div>
 
                     <button
@@ -165,6 +213,10 @@ export default function Contact() {
                     <i className="fas fa-shield-alt text-purple-500 mt-1 mr-3"></i>
                     <span>{t('contact.guidelines.privacy')}</span>
                   </div>
+                  <div className="flex items-start">
+                    <i className="fas fa-envelope-open text-orange-500 mt-1 mr-3"></i>
+                    <span>{t('contact.guidelines.limit')}</span>
+                  </div>
                 </div>
               </div>
 
@@ -177,9 +229,12 @@ export default function Contact() {
                   <p className="text-sm">{t('contact.alternative.description')}</p>
                   <div className="flex items-center text-sm">
                     <i className="fas fa-envelope mr-2"></i>
-                    <code className="bg-blue-100 px-2 py-1 rounded">
-                      lineinfo@download-guide.com
-                    </code>
+                    <a 
+                      href="mailto:contact@download-line.com"
+                      className="bg-blue-100 px-2 py-1 rounded hover:bg-blue-200 transition-colors"
+                    >
+                      contact@download-line.com
+                    </a>
                   </div>
                 </div>
               </div>
