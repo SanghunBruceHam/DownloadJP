@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://download-line.com/</loc>
+    <image:image>
+      <image:loc>https://download-line.com/og-image.svg</image:loc>
+      <image:title>LINEダウンロード 無料アプリ・PC版インストール方法</image:title>
+      <image:caption>LINEアプリの無料ダウンロード方法を完全ガイド。スマホ・PC・タブレット対応。</image:caption>
+      <image:license>https://download-line.com</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://download-line.com/hero-image.svg</image:loc>
+      <image:title>LINE アプリ インターフェース</image:title>
+      <image:caption>LINE アプリの使いやすいインターフェースとデバイス対応</image:caption>
+      <image:license>https://download-line.com</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://download-line.com/line-icon.svg</image:loc>
+      <image:title>LINE アプリ アイコン</image:title>
+      <image:caption>LINE 公式アプリアイコン</image:caption>
+      <image:license>https://download-line.com</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://download-line.com/images/guide/android-google-play.png</image:loc>
+      <image:title>Google Play Store での LINE ダウンロード</image:title>
+      <image:caption>Android デバイスで Google Play Store から LINE をダウンロードする方法</image:caption>
+      <image:license>https://download-line.com</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://download-line.com/images/guide/ios-app-store.png</image:loc>
+      <image:title>App Store での LINE ダウンロード</image:title>
+      <image:caption>iPhone・iPad で App Store から LINE をダウンロードする方法</image:caption>
+      <image:license>https://download-line.com</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://download-line.com/images/guide/ios-app-store-dialog.png</image:loc>
+      <image:title>App Store アプリ起動ダイアログ</image:title>
+      <image:caption>App Store を開く際の確認ダイアログ</image:caption>
+      <image:license>https://download-line.com</image:license>
+    </image:image>
+  </url>
+</urlset>

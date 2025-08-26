@@ -1,6 +1,12 @@
+# Japanese-focused LINE download site
 User-agent: *
 Allow: /
+
+# Primary language routes (Japan focus)
 Allow: /ja
+Allow: /
+
+# Secondary language routes  
 Allow: /en  
 Allow: /ko
 Allow: /zh
@@ -8,21 +14,53 @@ Allow: /th
 Allow: /id
 Allow: /tw
 
-# Block specific files/folders (if any)
+# Allow important static resources
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: /favicon.svg
+Allow: /line-icon.svg
+Allow: /og-image.svg
+Allow: /manifest.json
+
+# Block admin and development files
 Disallow: /api/
 Disallow: /*.json$
 Disallow: /src/
 Disallow: /node_modules/
+Disallow: /server/
+Disallow: /.git/
 
-# Sitemaps
+# Sitemaps (Japan primary)
 Sitemap: https://download-line.com/sitemap.xml
+Sitemap: https://download-line.com/sitemap-ja.xml
+Sitemap: https://download-line.com/sitemap-images.xml
 
-# Crawl-delay for better server performance
-Crawl-delay: 1
-
-# Cache policy (optional)
-# Allow caching of static resources
+# Google-specific crawling (Japan focus)
 User-agent: Googlebot
+Allow: /
 Allow: /images/
 Allow: /css/
 Allow: /js/
+Crawl-delay: 0
+
+# Other search engines
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# Japanese search engines
+User-agent: Yahoo-MMCrawler
+Allow: /
+Crawl-delay: 0
+
+User-agent: Y!J-BRW
+Allow: /
+Crawl-delay: 0
+
+# General crawl delay
+Crawl-delay: 1
