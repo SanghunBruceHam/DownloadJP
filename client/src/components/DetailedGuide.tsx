@@ -141,24 +141,26 @@ export default function DetailedGuide() {
                   
                   {/* Desktop Screenshots */}
                   <div className="mb-4">
-                    <div className="space-y-3">
-                      <div className="text-center">
-                        <h4 className="text-sm font-medium text-gray-700 mb-2">macOS (Mac App Store)</h4>
-                        <GuideImage 
-                          src="/images/guide/desktop-download.png" 
-                          alt="Mac App Store에서 LINE 다운로드"
-                          className="h-48 bg-white rounded-lg border border-gray-300 p-2"
-                        />
-                      </div>
-                      <div className="text-center">
-                        <h4 className="text-sm font-medium text-gray-700 mb-2">Windows PC</h4>
-                        <GuideImage 
-                          src="/images/guide/desktop-installer.png" 
-                          alt="Windows용 LINE 설치 프로그램"
-                          className="h-32 bg-gray-100 rounded-lg flex items-center justify-center"
-                        />
-                      </div>
+                    <div className="text-center">
+                      <h4 className="text-sm font-medium text-gray-700 mb-2">macOS (Mac App Store)</h4>
+                      <GuideImage 
+                        src="/images/guide/desktop-download.png" 
+                        alt="Mac App Store에서 LINE 다운로드"
+                        className="h-48 bg-white rounded-lg border border-gray-300 p-2"
+                        fallback={false}
+                      />
                     </div>
+                    {/* Windows PC section commented out - no image available
+                    <div className="text-center">
+                      <h4 className="text-sm font-medium text-gray-700 mb-2">Windows PC</h4>
+                      <GuideImage 
+                        src="/images/guide/desktop-installer.png" 
+                        alt="Windows용 LINE 설치 프로그램"
+                        className="h-32 bg-gray-100 rounded-lg flex items-center justify-center"
+                        fallback={false}
+                      />
+                    </div>
+                    */}
                   </div>
                   
                   <div className="space-y-3 text-gray-600">
@@ -180,11 +182,14 @@ export default function DetailedGuide() {
                     설치 팁
                   </h4>
                   
+                  {/* Installation tips image commented out - no image available
                   <GuideImage 
                     src="/images/guide/installation-tips.png" 
                     alt="Installation Tips"
                     className="h-24 bg-blue-100 rounded-lg flex items-center justify-center mb-3"
+                    fallback={false}
                   />
+                  */}
                   
                   <div className="space-y-2 text-blue-700 text-sm">
                     <div className="flex items-start space-x-2">
@@ -207,14 +212,16 @@ export default function DetailedGuide() {
 
           {activeCategory === 'usage' && (
             <div className="space-y-8">
-              {/* Usage Overview */}
+              {/* Usage Overview - commented out, no image available
               <div className="text-center mb-8">
                 <GuideImage 
                   src="/images/guide/line-main-interface.png" 
                   alt="LINE Main Interface"
                   className="h-40 bg-gray-100 rounded-lg flex items-center justify-center mx-auto max-w-md"
+                  fallback={false}
                 />
               </div>
+              */
 
               <div className="grid md:grid-cols-3 gap-8">
                 {['basic', 'chat', 'calls'].map((section) => (
@@ -224,14 +231,16 @@ export default function DetailedGuide() {
                       {t(`guide.usage.${section}.title`)}
                     </h3>
                     
-                    {/* Feature Screenshots */}
+                    {/* Feature Screenshots - commented out, no images available
                     <div className="mb-4">
                       <GuideImage 
                         src={`/images/guide/${section}-features.png`} 
                         alt={`${section} features`}
                         className="h-32 bg-gray-100 rounded-lg flex items-center justify-center"
+                        fallback={false}
                       />
                     </div>
+                    */
                     
                     <div className="space-y-3 text-gray-600">
                       {Array.from({ length: 3 }, (_, i) => (
@@ -245,13 +254,14 @@ export default function DetailedGuide() {
                 ))}
               </div>
 
-              {/* Usage Video Placeholder */}
+              {/* Usage Video section removed as requested
               <div className="bg-gradient-to-r from-line-green to-line-light rounded-lg p-8 text-center text-white">
                 <div className="mb-4">
                   <GuideImage 
                     src="/images/guide/usage-video-thumbnail.png" 
                     alt="Usage Video Tutorial"
                     className="h-32 bg-white/20 border border-white/30 rounded-lg flex items-center justify-center mx-auto max-w-md"
+                    fallback={false}
                   />
                 </div>
                 <h4 className="text-xl font-semibold mb-2">📹 동영상 가이드</h4>
@@ -261,6 +271,7 @@ export default function DetailedGuide() {
                   동영상 보기 (준비 중)
                 </button>
               </div>
+              */}
             </div>
           )}
 
@@ -274,18 +285,22 @@ export default function DetailedGuide() {
                     {t('guide.login.newUser.title')}
                   </h3>
                   
+                  {/* Sign up screenshots commented out - no images available
                   <div className="space-y-2 mb-4">
                     <GuideImage 
                       src="/images/guide/signup-step1.png" 
                       alt="Sign up Step 1"
                       className="h-24 bg-gray-100 rounded-lg flex items-center justify-center"
+                      fallback={false}
                     />
                     <GuideImage 
                       src="/images/guide/signup-step2.png" 
                       alt="Sign up Step 2"
                       className="h-24 bg-gray-100 rounded-lg flex items-center justify-center"
+                      fallback={false}
                     />
                   </div>
+                  */
                   
                   <div className="space-y-3 text-gray-600">
                     {Array.from({ length: 5 }, (_, i) => (
@@ -306,18 +321,22 @@ export default function DetailedGuide() {
                     {t('guide.login.existing.title')}
                   </h3>
                   
+                  {/* Login screenshots commented out - no images available
                   <div className="space-y-2 mb-4">
                     <GuideImage 
                       src="/images/guide/login-screen.png" 
                       alt="Login Screen"
                       className="h-32 bg-gray-100 rounded-lg flex items-center justify-center"
+                      fallback={false}
                     />
                     <GuideImage 
                       src="/images/guide/login-verification.png" 
                       alt="Login Verification"
                       className="h-20 bg-gray-100 rounded-lg flex items-center justify-center"
+                      fallback={false}
                     />
                   </div>
+                  */
                   
                   <div className="space-y-3 text-gray-600">
                     {Array.from({ length: 4 }, (_, i) => (
@@ -338,13 +357,16 @@ export default function DetailedGuide() {
                     QR 코드 로그인
                   </h4>
                   
+                  {/* QR login screenshot commented out - no image available
                   <div className="mb-4">
                     <GuideImage 
                       src="/images/guide/qr-login.png" 
                       alt="QR Code Login"
                       className="h-32 bg-green-100 rounded-lg flex items-center justify-center"
+                      fallback={false}
                     />
                   </div>
+                  */}
                   
                   <div className="space-y-2 text-green-700 text-sm">
                     <div className="flex items-start space-x-2">
@@ -370,28 +392,34 @@ export default function DetailedGuide() {
               {/* Theme Gallery */}
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">🎨 테마 갤러리</h3>
+                {/* Theme gallery commented out - no images available
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
                   <GuideImage 
                     src="/images/guide/theme-default.png" 
                     alt="Default Theme"
                     className="h-24 bg-gray-100 rounded-lg flex items-center justify-center"
+                    fallback={false}
                   />
                   <GuideImage 
                     src="/images/guide/theme-dark.png" 
                     alt="Dark Theme"
                     className="h-24 bg-gray-900 rounded-lg flex items-center justify-center"
+                    fallback={false}
                   />
                   <GuideImage 
                     src="/images/guide/theme-colorful.png" 
                     alt="Colorful Theme"
                     className="h-24 bg-gradient-to-br from-pink-200 to-blue-200 rounded-lg flex items-center justify-center"
+                    fallback={false}
                   />
                   <GuideImage 
                     src="/images/guide/theme-seasonal.png" 
                     alt="Seasonal Theme"
                     className="h-24 bg-gradient-to-br from-orange-200 to-red-200 rounded-lg flex items-center justify-center"
+                    fallback={false}
                   />
                 </div>
+                */}
               </div>
 
               <div className="grid lg:grid-cols-3 gap-8">
@@ -402,18 +430,22 @@ export default function DetailedGuide() {
                     {t('guide.themes.change.title')}
                   </h3>
                   
+                  {/* Theme settings screenshots commented out - no images available
                   <div className="space-y-2 mb-4">
                     <GuideImage 
                       src="/images/guide/theme-settings-menu.png" 
                       alt="Theme Settings Menu"
                       className="h-24 bg-gray-100 rounded-lg flex items-center justify-center"
+                      fallback={false}
                     />
                     <GuideImage 
                       src="/images/guide/theme-selection.png" 
                       alt="Theme Selection Screen"
                       className="h-32 bg-gray-100 rounded-lg flex items-center justify-center"
+                      fallback={false}
                     />
                   </div>
+                  */}
                   
                   <div className="space-y-3 text-gray-600">
                     {Array.from({ length: 6 }, (_, i) => (
@@ -434,18 +466,22 @@ export default function DetailedGuide() {
                     {t('guide.themes.custom.title')}
                   </h3>
                   
+                  {/* LINE Store screenshots commented out - no images available
                   <div className="space-y-2 mb-4">
                     <GuideImage 
                       src="/images/guide/line-store.png" 
                       alt="LINE Store"
                       className="h-32 bg-gray-100 rounded-lg flex items-center justify-center"
+                      fallback={false}
                     />
                     <GuideImage 
                       src="/images/guide/theme-download.png" 
                       alt="Theme Download Process"
                       className="h-24 bg-gray-100 rounded-lg flex items-center justify-center"
+                      fallback={false}
                     />
                   </div>
+                  */}
                   
                   <div className="space-y-3 text-gray-600">
                     {Array.from({ length: 4 }, (_, i) => (
@@ -466,13 +502,16 @@ export default function DetailedGuide() {
                     {t('guide.themes.tips.title')}
                   </h4>
                   
+                  {/* Theme tips screenshot commented out - no image available
                   <div className="mb-4">
                     <GuideImage 
                       src="/images/guide/theme-tips.png" 
                       alt="Theme Tips"
                       className="h-24 bg-purple-100 rounded-lg flex items-center justify-center"
+                      fallback={false}
                     />
                   </div>
+                  */}
                   
                   <div className="space-y-2 text-purple-700 text-sm">
                     {Array.from({ length: 3 }, (_, i) => (
@@ -486,18 +525,22 @@ export default function DetailedGuide() {
                   {/* Popular Themes */}
                   <div className="mt-4 pt-4 border-t border-purple-200">
                     <h5 className="font-medium text-purple-800 mb-2">🔥 인기 테마</h5>
+                    {/* Popular themes screenshots commented out - no images available
                     <div className="grid grid-cols-2 gap-2">
                       <GuideImage 
                         src="/images/guide/theme-popular1.png" 
                         alt="Popular Theme 1"
                         className="h-16 bg-purple-100 rounded flex items-center justify-center"
+                        fallback={false}
                       />
                       <GuideImage 
                         src="/images/guide/theme-popular2.png" 
                         alt="Popular Theme 2"
                         className="h-16 bg-purple-100 rounded flex items-center justify-center"
+                        fallback={false}
                       />
                     </div>
+                    */}
                   </div>
                 </div>
               </div>
