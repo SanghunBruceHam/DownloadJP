@@ -39,11 +39,11 @@
     "downloadButton": "다운로드",
     "android": {
       "name": "Android",
-      "requirements": "Android 5.0 이상"
+      "requirements": "Android 7.0 이상"
     },
     "ios": {
       "name": "iOS",
-      "requirements": "iOS 12.0 이상"
+      "requirements": "iOS 15.0 이상"
     },
     "windows": {
       "name": "Windows",
@@ -51,7 +51,7 @@
     },
     "mac": {
       "name": "macOS",
-      "requirements": "macOS 10.14 이상"
+      "requirements": "macOS 12.0 이상"
     },
     "web": {
       "name": "웹 버전",
@@ -119,7 +119,7 @@
       },
       "data": {
         "question": "데이터 사용량은 얼마나 되나요?",
-        "answer": "텍스트 메시지는 매우 가벼우며, 음성 통화는 분당 약 0.3MB, 영상 통화는 분당 약 5MB의 데이터를 소모합니다. Wi-Fi 환경에서 사용하시길 권장합니다."
+        "answer": "텍스트 메시지는 매우 가벼우며, 음성 통화는 분당 약 0.3MB, 영상 통화는 분당 약 5MB의 데이터를 소모합니다(대략). 실제 사용량은 환경에 따라 다를 수 있습니다. Wi-Fi 환경에서 사용하시길 권장합니다."
       },
       "multidevice": {
         "question": "여러 기기에서 같은 계정을 사용할 수 있나요?",
@@ -133,7 +133,7 @@
   },
   "footer": {
     "brand": "LINE 다운로드",
-    "description": "LINE 앱의 안전한 다운로드 사이트. 모든 플랫폼 지원.",
+    "description": "LINE 앱의 안전한 다운로드 가이드. 모든 플랫폼 지원. 본 사이트는 LINE Corporation과 관계가 없습니다.",
     "sections": {
       "download": "다운로드",
       "support": "지원",
@@ -150,7 +150,7 @@
       "guide": "설치 가이드",
       "contact": "문의하기"
     },
-    "copyright": "© 2024 LINE Corporation. All rights reserved.",
+    "copyright": "© 2025 Download-LINE.com. 비공식 다운로드 가이드.",
     "legal": {
       "privacy": "개인정보처리방침",
       "terms": "이용약관",

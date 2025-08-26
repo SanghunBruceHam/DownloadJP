@@ -39,11 +39,11 @@
     "downloadButton": "Download",
     "android": {
       "name": "Android",
-      "requirements": "Android 5.0 or later"
+      "requirements": "Android 7.0 or later"
     },
     "ios": {
       "name": "iOS",
-      "requirements": "iOS 12.0 or later"
+      "requirements": "iOS 15.0 or later"
     },
     "windows": {
       "name": "Windows",
@@ -51,7 +51,7 @@
     },
     "mac": {
       "name": "macOS",
-      "requirements": "macOS 10.14 or later"
+      "requirements": "macOS 12.0 or later"
     },
     "web": {
       "name": "Web Version",
@@ -119,7 +119,7 @@
       },
       "data": {
         "question": "How much data does it consume?",
-        "answer": "Text messages are very lightweight. Voice calls consume about 0.3MB per minute, and video calls consume about 5MB per minute. We recommend using Wi-Fi when possible."
+        "answer": "Text messages are very lightweight. Voice calls consume about 0.3MB per minute, and video calls consume about 5MB per minute (approximate). Actual usage may vary depending on conditions. We recommend using Wi-Fi when possible."
       },
       "multidevice": {
         "question": "Can I use the same account on multiple devices?",
@@ -133,7 +133,7 @@
   },
   "footer": {
     "brand": "LINE Download",
-    "description": "Secure LINE app download site. Compatible with all platforms.",
+    "description": "Secure LINE app download guide. Compatible with all platforms. This site is not affiliated with LINE Corporation.",
     "sections": {
       "download": "Download",
       "support": "Support",
@@ -150,7 +150,7 @@
       "guide": "Installation Guide",
       "contact": "Contact Us"
     },
-    "copyright": "© 2024 LINE Corporation. All rights reserved.",
+    "copyright": "© 2025 Download-LINE.com. Unofficial download guide.",
     "legal": {
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",

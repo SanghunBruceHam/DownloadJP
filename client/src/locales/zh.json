@@ -39,11 +39,11 @@
     "downloadButton": "下载",
     "android": {
       "name": "Android",
-      "requirements": "Android 5.0 或更高版本"
+      "requirements": "Android 7.0 或更高版本"
     },
     "ios": {
       "name": "iOS",
-      "requirements": "iOS 12.0 或更高版本"
+      "requirements": "iOS 15.0 或更高版本"
     },
     "windows": {
       "name": "Windows",
@@ -51,7 +51,7 @@
     },
     "mac": {
       "name": "macOS",
-      "requirements": "macOS 10.14 或更高版本"
+      "requirements": "macOS 12.0 或更高版本"
     },
     "web": {
       "name": "网页版",
@@ -119,7 +119,7 @@
       },
       "data": {
         "question": "会消耗多少数据流量？",
-        "answer": "文字消息非常轻量，语音通话每分钟约消耗 0.3MB，视频通话每分钟约消耗 5MB 数据。建议在 Wi-Fi 环境下使用。"
+        "answer": "文字消息非常轻量，语音通话每分钟约消耗 0.3MB，视频通话每分钟约消耗 5MB 数据（估计）。实际使用量可能因环境而异。建议在 Wi-Fi 环境下使用。"
       },
       "multidevice": {
         "question": "可以在多个设备上使用同一账户吗？",
@@ -133,7 +133,7 @@
   },
   "footer": {
     "brand": "LINE 下载",
-    "description": "LINE 应用的安全下载网站。支持所有平台。",
+    "description": "LINE 应用的安全下载指南。支持所有平台。本网站与LINE Corporation无关。",
     "sections": {
       "download": "下载",
       "support": "支持",
@@ -150,7 +150,7 @@
       "guide": "安装指南",
       "contact": "联系我们"
     },
-    "copyright": "© 2024 LINE Corporation. All rights reserved.",
+    "copyright": "© 2025 Download-LINE.com. 非官方下载指南。",
     "legal": {
       "privacy": "隐私政策",
       "terms": "使用条款",
