@@ -30,17 +30,21 @@ export default function SEOHead({
       <meta property="og:description" content={pageDescription} />
       <meta property="og:type" content="website" />
       <meta property="og:image" content={ogImage} />
+      <meta property="og:url" content={typeof window !== 'undefined' ? window.location.href : 'https://download-line.com'} />
+      <meta property="og:site_name" content="LINE Download" />
       
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={pageTitle} />
       <meta name="twitter:description" content={pageDescription} />
       <meta name="twitter:image" content={ogImage} />
+      <meta name="twitter:site" content="@LINE_JP" />
       
       {/* Additional SEO */}
       <meta name="robots" content="index, follow" />
-      <meta name="author" content="LINE Corporation" />
-      <link rel="canonical" href={typeof window !== 'undefined' ? window.location.href : ''} />
+      <meta name="author" content="LINE Download Team" />
+      <meta name="generator" content="React + Vite" />
+      <link rel="canonical" href={typeof window !== 'undefined' ? window.location.href : 'https://download-line.com'} />
     </>
   );
 }
