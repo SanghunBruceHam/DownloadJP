@@ -10,6 +10,35 @@ export default function Header() {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
 
+  const handleSearch = (query: string) => {
+    setSearchQuery(query);
+    if (query.length > 0) {
+      const results = searchSections(query, t);
+      setSearchResults(results);
+    } else {
+      setSearchResults([]);
+    }
+  };
+
+  const handleSearchSubmit = () => {
+    if (searchResults.length > 0) {
+      scrollToSection(searchResults[0].id);
+      setSearchOpen(false);
+    }
+  };
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+      setSearchQuery('');
+      setSearchResults([]);
+    }
+  };
+
   return (
     <>
       {/* Header Ad Banner */}
@@ -127,33 +156,4 @@ export default function Header() {
       )}
     </>
   );
-
-  const handleSearch = (query: string) => {
-    setSearchQuery(query);
-    if (query.length > 0) {
-      const results = searchSections(query, t);
-      setSearchResults(results);
-    } else {
-      setSearchResults([]);
-    }
-  };
-
-  const handleSearchSubmit = () => {
-    if (searchResults.length > 0) {
-      scrollToSection(searchResults[0].id);
-      setSearchOpen(false);
-    }
-  };
-
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ 
-        behavior: 'smooth',
-        block: 'start'
-      });
-      setSearchQuery('');
-      setSearchResults([]);
-    }
-  };
 }
