@@ -1,11 +1,11 @@
 import { useTranslation } from 'react-i18next';
 import AdBanner from './AdBanner';
+import { getPlatformInfo, type Platform } from '../lib/platform-detection';
 
 export default function Footer() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
-  const downloadLinks = ['android', 'ios', 'windows', 'mac'];
-  const supportLinks = ['help', 'faq', 'guide', 'contact'];
+  const downloadPlatforms: Platform[] = ['android', 'ios', 'windows', 'mac'];
   const languages = [
     { code: 'ja', name: '🇯🇵 日本語' },
     { code: 'en', name: '🇺🇸 English' },
@@ -15,6 +15,23 @@ export default function Footer() {
     { code: 'id', name: '🇮🇩 Bahasa Indonesia' },
     { code: 'tw', name: '🇹🇼 中文 (繁體)' },
   ];
+
+  const handleDownload = (platform: Platform) => {
+    const platformInfo = getPlatformInfo(platform, t);
+    window.open(platformInfo.downloadUrl, '_blank');
+  };
+
+  const handleLanguageChange = (langCode: string) => {
+    i18n.changeLanguage(langCode);
+    document.documentElement.lang = langCode;
+  };
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
 
   return (
     <footer className="bg-gray-900 text-white py-12">
@@ -45,11 +62,14 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-4">{t('footer.sections.download')}</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              {downloadLinks.map((link) => (
-                <li key={link}>
-                  <a href="#" className="hover:text-white transition-colors">
-                    {t(`footer.links.${link}`)}
-                  </a>
+              {downloadPlatforms.map((platform) => (
+                <li key={platform}>
+                  <button 
+                    onClick={() => handleDownload(platform)}
+                    className="hover:text-white transition-colors text-left"
+                  >
+                    {t(`footer.links.${platform}`)}
+                  </button>
                 </li>
               ))}
             </ul>
@@ -58,13 +78,38 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-4">{t('footer.sections.support')}</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              {supportLinks.map((link) => (
-                <li key={link}>
-                  <a href="#" className="hover:text-white transition-colors">
-                    {t(`footer.links.${link}`)}
-                  </a>
-                </li>
-              ))}
+              <li>
+                <button 
+                  onClick={() => window.open('https://help.line.me/', '_blank')}
+                  className="hover:text-white transition-colors"
+                >
+                  {t('footer.links.help')}
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => scrollToSection('faq-section')}
+                  className="hover:text-white transition-colors"
+                >
+                  {t('footer.links.faq')}
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => scrollToSection('guide-section')}
+                  className="hover:text-white transition-colors"
+                >
+                  {t('footer.links.guide')}
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => window.open('mailto:contact@download-line.com')}
+                  className="hover:text-white transition-colors"
+                >
+                  {t('footer.links.contact')}
+                </button>
+              </li>
             </ul>
           </div>
           
@@ -73,9 +118,14 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-gray-400">
               {languages.map((language) => (
                 <li key={language.code}>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <button 
+                    onClick={() => handleLanguageChange(language.code)}
+                    className={`hover:text-white transition-colors text-left ${
+                      i18n.language === language.code ? 'text-white font-medium' : ''
+                    }`}
+                  >
                     {language.name}
-                  </a>
+                  </button>
                 </li>
               ))}
             </ul>
@@ -87,15 +137,21 @@ export default function Footer() {
             {t('footer.copyright')}
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">
+            <button 
+              onClick={() => window.open('https://line.me/en/terms/', '_blank')}
+              className="text-gray-400 hover:text-white transition-colors text-sm"
+            >
               {t('footer.legal.privacy')}
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">
+            </button>
+            <button 
+              onClick={() => window.open('https://line.me/en/terms/', '_blank')}
+              className="text-gray-400 hover:text-white transition-colors text-sm"
+            >
               {t('footer.legal.terms')}
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">
+            </button>
+            <span className="text-gray-400 text-sm cursor-default">
               {t('footer.legal.disclaimer')}
-            </a>
+            </span>
           </div>
         </div>
       </div>

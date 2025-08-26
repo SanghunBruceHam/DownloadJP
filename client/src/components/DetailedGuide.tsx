@@ -13,7 +13,7 @@ export default function DetailedGuide() {
   const [activeCategory, setActiveCategory] = useState('installation');
 
   return (
-    <section className="py-16 bg-white">
+    <section id="guide-section" className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">{t('guide.title')}</h2>
