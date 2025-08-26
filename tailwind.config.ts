@@ -13,6 +13,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "line-green": "var(--line-green)",
+        "line-light": "var(--line-light)", 
+        "line-dark": "var(--line-dark)",
         card: {
           DEFAULT: "var(--card)",
           foreground: "var(--card-foreground)",
@@ -86,5 +89,8 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
+  plugins: [
+    import("tailwindcss-animate").then(m => m.default || m),
+    import("@tailwindcss/typography").then(m => m.default || m)
+  ],
 } satisfies Config;
