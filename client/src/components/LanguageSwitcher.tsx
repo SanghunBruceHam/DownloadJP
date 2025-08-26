@@ -5,7 +5,10 @@ const languages = [
   { code: 'ja', name: '日本語', flag: '🇯🇵' },
   { code: 'en', name: 'English', flag: '🇺🇸' },
   { code: 'ko', name: '한국어', flag: '🇰🇷' },
-  { code: 'zh', name: '中文', flag: '🇨🇳' },
+  { code: 'zh', name: '中文 (简体)', flag: '🇨🇳' },
+  { code: 'th', name: 'ไทย', flag: '🇹🇭' },
+  { code: 'id', name: 'Bahasa Indonesia', flag: '🇮🇩' },
+  { code: 'tw', name: '中文 (繁體)', flag: '🇹🇼' },
 ];
 
 export default function LanguageSwitcher() {

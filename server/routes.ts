@@ -61,7 +61,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   // Generate sitemap
   app.get("/sitemap.xml", (req, res) => {
     const baseUrl = process.env.DOMAIN || (req.protocol + '://' + req.get('host'));
-    const languages = ['ja', 'en', 'ko', 'zh'];
+    const languages = ['ja', 'en', 'ko', 'zh', 'th', 'id', 'tw'];
     
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">

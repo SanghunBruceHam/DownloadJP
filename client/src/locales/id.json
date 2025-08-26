@@ -1,0 +1,247 @@
+{
+  "common": {
+    "currentLanguage": "id"
+  },
+  "seo": {
+    "title": "Download LINE - Unduh Aplikasi Gratis",
+    "description": "Unduh aplikasi LINE gratis. Kompatibel dengan smartphone, PC, dan tablet. Menyediakan tautan unduhan yang aman dan cepat.",
+    "keywords": "LINE, download, aplikasi, gratis, chat, panggilan"
+  },
+  "header": {
+    "title": "Download LINE",
+    "subtitle": "Situs Download",
+    "searchPlaceholder": "Cari..."
+  },
+  "hero": {
+    "title": {
+      "main": "Unduh Aplikasi LINE",
+      "highlight": "Gratis"
+    },
+    "description": "Aplikasi komunikasi yang dicintai di seluruh dunia. Membuat koneksi dengan teman dan keluarga lebih menyenangkan dan nyaman.",
+    "detectedDevice": "Perangkat Anda",
+    "downloadButton": {
+      "android": "Lihat Opsi Download",
+      "ios": "Lihat Opsi Download",
+      "windows": "Lihat Opsi Download",
+      "mac": "Lihat Opsi Download",
+      "web": "Lihat Opsi Download"
+    },
+    "trustIndicators": {
+      "secure": "Download Aman",
+      "downloads": "1B+ Download",
+      "rating": "Rating 4.8★"
+    },
+    "imageAlt": "Interface aplikasi LINE"
+  },
+  "platforms": {
+    "title": "Tersedia di Semua Platform",
+    "description": "Unduh aplikasi LINE yang sempurna untuk perangkat Anda",
+    "downloadButton": "Download",
+    "android": {
+      "name": "Android",
+      "requirements": "Android 7.0 atau lebih baru"
+    },
+    "ios": {
+      "name": "iOS",
+      "requirements": "iOS 15.0 atau lebih baru"
+    },
+    "windows": {
+      "name": "Windows",
+      "requirements": "Windows 10 atau lebih baru"
+    },
+    "mac": {
+      "name": "macOS",
+      "requirements": "macOS 12.0 atau lebih baru"
+    },
+    "web": {
+      "name": "Versi Web",
+      "requirements": "Kompatibel browser",
+      "title": "LINE Versi Web",
+      "description": "Gunakan LINE di browser Anda - Tidak perlu instalasi",
+      "button": "Buka Versi Web"
+    }
+  },
+  "features": {
+    "title": "Fitur Utama LINE",
+    "description": "Penuh dengan fitur untuk membuat komunikasi lebih menyenangkan dan nyaman",
+    "items": {
+      "chat": {
+        "title": "Chat",
+        "description": "Berkomunikasi dengan berbagai cara menggunakan teks, stiker, foto, video, dan lainnya"
+      },
+      "call": {
+        "title": "Panggilan Gratis",
+        "description": "Nikmati panggilan suara dan video gratis di mana pun di dunia"
+      },
+      "stickers": {
+        "title": "Stiker",
+        "description": "Ekspresikan emosi dengan stiker yang kaya. Banyak stiker gratis tersedia"
+      },
+      "groups": {
+        "title": "Chat Grup",
+        "description": "Bersenang-senang dengan chat grup yang mendukung hingga 500 peserta"
+      },
+      "camera": {
+        "title": "Fitur Kamera",
+        "description": "Buat foto dan video lebih menyenangkan dengan filter dan efek"
+      },
+      "security": {
+        "title": "Keamanan",
+        "description": "Komunikasi aman dengan enkripsi end-to-end melalui Letter Sealing"
+      }
+    }
+  },
+  "installation": {
+    "title": "Panduan Instalasi",
+    "description": "Mulai dengan LINE hanya dalam 3 langkah sederhana",
+    "steps": {
+      "download": {
+        "title": "Download",
+        "description": "Unduh aplikasi LINE yang kompatibel dengan perangkat Anda"
+      },
+      "account": {
+        "title": "Buat Akun",
+        "description": "Buat akun menggunakan nomor telepon dan atur profil Anda"
+      },
+      "friends": {
+        "title": "Tambah Teman",
+        "description": "Tambahkan teman menggunakan QR code atau pencarian ID, dan mulai chat"
+      }
+    }
+  },
+  "guide": {
+    "title": "Panduan Rinci",
+    "description": "Panduan lengkap untuk memaksimalkan LINE",
+    "categories": {
+      "installation": "Cara Instalasi",
+      "usage": "Cara Penggunaan",
+      "login": "Cara Login",
+      "themes": "Pengaturan Tema"
+    },
+    "installation": {
+      "mobile": {
+        "title": "Instalasi Mobile",
+        "step1": "Buka App Store atau Google Play di perangkat Anda",
+        "step2": "Cari 'LINE' di bilah pencarian",
+        "step3": "Temukan aplikasi LINE dan ketuk tombol 'Install'",
+        "step4": "Setelah terinstal, buka aplikasi dan selesaikan pengaturan awal"
+      },
+      "desktop": {
+        "title": "Instalasi Desktop",
+        "step1": "Unduh versi PC dari situs web resmi LINE",
+        "step2": "Jalankan file installer yang telah diunduh",
+        "step3": "Ikuti wizard instalasi untuk menyelesaikan setup",
+        "step4": "Buka aplikasi dan login dengan QR code atau email"
+      }
+    },
+    "usage": {
+      "basic": {
+        "title": "Penggunaan Dasar",
+        "tip1": "Atur foto profil dan nama agar teman mudah menemukan Anda",
+        "tip2": "Bagikan mood atau status saat ini dengan pesan status",
+        "tip3": "Periksa update teman di timeline dan berikan like atau komentar"
+      },
+      "chat": {
+        "title": "Fitur Chat",
+        "tip1": "Ekspresikan emosi dengan kaya menggunakan stiker dan emoji",
+        "tip2": "Nikmati percakapan bersama dalam chat grup dengan teman dan keluarga",
+        "tip3": "Kirim dan terima foto, video, dan file dengan mudah"
+      },
+      "calls": {
+        "title": "Fitur Panggilan",
+        "tip1": "Chat dengan teman di seluruh dunia melalui panggilan suara gratis",
+        "tip2": "Komunikasi lebih intim dengan panggilan video bertatap muka",
+        "tip3": "Chat bersama semua orang dalam panggilan grup"
+      }
+    },
+    "login": {
+      "newUser": {
+        "title": "Pendaftaran Pengguna Baru",
+        "step1": "Buka aplikasi LINE dan ketuk 'Pendaftaran Baru'",
+        "step2": "Masukkan nomor telepon dan terima kode verifikasi SMS",
+        "step3": "Masukkan kode verifikasi yang diterima untuk menyelesaikan verifikasi identitas",
+        "step4": "Atur nama profil dan foto profil",
+        "step5": "Pilih pengaturan penambahan teman otomatis dan selesaikan pendaftaran"
+      },
+      "existing": {
+        "title": "Login Akun yang Ada",
+        "step1": "Buka aplikasi LINE dan ketuk 'Login'",
+        "step2": "Masukkan nomor telepon atau alamat email yang terdaftar",
+        "step3": "Masukkan password untuk menyelesaikan login",
+        "step4": "Selesaikan verifikasi identitas dengan kode SMS jika diperlukan"
+      }
+    },
+    "themes": {
+      "change": {
+        "title": "Cara Mengganti Tema",
+        "step1": "Buka aplikasi LINE dan ketuk tab 'Pengaturan' (Beranda) di kanan bawah",
+        "step2": "Pilih 'Tampilan' dari menu pengaturan",
+        "step3": "Ketuk 'Tema' untuk menampilkan daftar tema",
+        "step4": "Pilih tema favorit dan ketuk 'Terapkan'",
+        "step5": "Preview dan ketuk 'Terapkan' untuk menyimpan perubahan",
+        "step6": "Tema diterapkan dan desain LINE keseluruhan berubah"
+      },
+      "custom": {
+        "title": "Download Tema Kustom",
+        "step1": "Cari tema favorit Anda di LINE STORE",
+        "step2": "Ketuk 'Download' untuk tema gratis, 'Beli' untuk tema berbayar",
+        "step3": "Setelah download selesai, terapkan dari pengaturan tema aplikasi LINE",
+        "step4": "Ganti tema kapan saja dari My Themes"
+      },
+      "tips": {
+        "title": "Tips Kustomisasi Tema",
+        "tip1": "Kurangi kelelahan mata dengan mode gelap dan mode terang",
+        "tip2": "Nikmati mengganti tema sesuai musim atau acara",
+        "tip3": "Buat percakapan lebih menyenangkan dengan tema yang sama dengan teman"
+      }
+    }
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering Diajukan",
+    "description": "Tentang mengunduh dan menggunakan LINE",
+    "items": {
+      "free": {
+        "question": "Apakah LINE gratis untuk digunakan?",
+        "answer": "Ya, fitur dasar LINE (chat, panggilan suara, panggilan video, dll.) sepenuhnya gratis untuk digunakan. Beberapa stiker berbayar dan pembelian dalam game mungkin memerlukan biaya tambahan."
+      },
+      "data": {
+        "question": "Berapa banyak data yang dikonsumsi?",
+        "answer": "Pesan teks sangat ringan. Panggilan suara mengkonsumsi sekitar 0.3MB per menit, dan panggilan video mengkonsumsi sekitar 5MB per menit (perkiraan). Penggunaan aktual dapat bervariasi tergantung kondisi. Kami merekomendasikan menggunakan Wi-Fi jika memungkinkan."
+      },
+      "multidevice": {
+        "question": "Bisakah saya menggunakan akun yang sama di beberapa perangkat?",
+        "answer": "Versi smartphone hanya memungkinkan satu perangkat per akun, tetapi versi PC dan iPad dapat digunakan secara bersamaan. Pesan disinkronkan di semua perangkat."
+      },
+      "delete": {
+        "question": "Bagaimana cara menghapus akun saya?",
+        "answer": "Pergi ke Pengaturan > Akun > Hapus Akun untuk melanjutkan. Harap dicatat bahwa semua data akan dihapus secara permanen dan tidak dapat dipulihkan."
+      }
+    }
+  },
+  "footer": {
+    "brand": "Download LINE",
+    "description": "Panduan download aplikasi LINE yang aman. Kompatibel dengan semua platform. Situs ini tidak berafiliasi dengan LINE Corporation.",
+    "sections": {
+      "download": "Download",
+      "support": "Dukungan",
+      "language": "Bahasa"
+    },
+    "links": {
+      "android": "Versi Android",
+      "ios": "Versi iOS",
+      "windows": "Versi Windows",
+      "mac": "Versi Mac",
+      "web": "Versi Web",
+      "help": "Pusat Bantuan",
+      "faq": "FAQ",
+      "guide": "Panduan Instalasi",
+      "contact": "Hubungi Kami"
+    },
+    "copyright": "© 2025 Download-LINE.com. Panduan download tidak resmi.",
+    "legal": {
+      "privacy": "Kebijakan Privasi",
+      "terms": "Syarat Layanan",
+      "disclaimer": "Penafian"
+    }
+  }
+}

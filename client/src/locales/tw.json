@@ -1,0 +1,247 @@
+{
+  "common": {
+    "currentLanguage": "tw"
+  },
+  "seo": {
+    "title": "LINE 下載 - 免費下載應用程式",
+    "description": "免費下載 LINE 應用程式。支援智慧型手機、電腦、平板電腦。提供安全快速的下載連結。",
+    "keywords": "LINE, 下載, 應用程式, 免費, 聊天, 通話"
+  },
+  "header": {
+    "title": "LINE 下載",
+    "subtitle": "下載網站",
+    "searchPlaceholder": "搜尋..."
+  },
+  "hero": {
+    "title": {
+      "main": "下載 LINE 應用程式",
+      "highlight": "完全免費"
+    },
+    "description": "全世界都在使用的通訊應用程式。讓與朋友和家人的聯繫變得更加有趣和便利。",
+    "detectedDevice": "您的裝置",
+    "downloadButton": {
+      "android": "檢視下載選項",
+      "ios": "檢視下載選項",
+      "windows": "檢視下載選項",
+      "mac": "檢視下載選項",
+      "web": "檢視下載選項"
+    },
+    "trustIndicators": {
+      "secure": "安全下載",
+      "downloads": "10億+ 下載",
+      "rating": "4.8★ 評分"
+    },
+    "imageAlt": "LINE 應用程式介面"
+  },
+  "platforms": {
+    "title": "支援所有平台",
+    "description": "下載最適合您裝置的 LINE 應用程式",
+    "downloadButton": "下載",
+    "android": {
+      "name": "Android",
+      "requirements": "Android 7.0 或更高版本"
+    },
+    "ios": {
+      "name": "iOS",
+      "requirements": "iOS 15.0 或更高版本"
+    },
+    "windows": {
+      "name": "Windows",
+      "requirements": "Windows 10 或更高版本"
+    },
+    "mac": {
+      "name": "macOS",
+      "requirements": "macOS 12.0 或更高版本"
+    },
+    "web": {
+      "name": "網頁版",
+      "requirements": "瀏覽器相容",
+      "title": "LINE 網頁版",
+      "description": "在瀏覽器中使用 LINE - 無需安裝",
+      "button": "開啟網頁版"
+    }
+  },
+  "features": {
+    "title": "LINE 主要功能",
+    "description": "滿載讓溝通更有趣更便利的功能",
+    "items": {
+      "chat": {
+        "title": "聊天",
+        "description": "用文字、貼圖、照片、影片等各種方式溝通"
+      },
+      "call": {
+        "title": "免費通話",
+        "description": "在全世界任何地方都能享受免費語音和影片通話"
+      },
+      "stickers": {
+        "title": "貼圖",
+        "description": "用豐富的貼圖表達情感。提供許多免費貼圖"
+      },
+      "groups": {
+        "title": "群組聊天",
+        "description": "最多支援 500 人的群組聊天，一起同樂"
+      },
+      "camera": {
+        "title": "相機功能",
+        "description": "用濾鏡和特效讓照片和影片更有趣"
+      },
+      "security": {
+        "title": "安全性",
+        "description": "透過 Letter Sealing 進行端到端加密的安全通訊"
+      }
+    }
+  },
+  "installation": {
+    "title": "安裝指南",
+    "description": "只需簡單 3 步驟即可開始使用 LINE",
+    "steps": {
+      "download": {
+        "title": "下載",
+        "description": "下載與您裝置相容的 LINE 應用程式"
+      },
+      "account": {
+        "title": "建立帳號",
+        "description": "用電話號碼建立帳號並設定個人資料"
+      },
+      "friends": {
+        "title": "加入好友",
+        "description": "用 QR 碼或 ID 搜尋加入好友，開始聊天"
+      }
+    }
+  },
+  "guide": {
+    "title": "詳細指南",
+    "description": "充分發揮 LINE 作用的完整指南",
+    "categories": {
+      "installation": "安裝方法",
+      "usage": "使用方法",
+      "login": "登入方法",
+      "themes": "主題設定"
+    },
+    "installation": {
+      "mobile": {
+        "title": "行動裝置安裝",
+        "step1": "在您的裝置上開啟 App Store 或 Google Play",
+        "step2": "在搜尋欄中輸入 'LINE' 進行搜尋",
+        "step3": "找到 LINE 應用程式後點擊「安裝」按鈕",
+        "step4": "安裝完成後開啟應用程式並完成初始設定"
+      },
+      "desktop": {
+        "title": "桌機版安裝",
+        "step1": "從 LINE 官方網站下載 PC 版應用程式",
+        "step2": "執行下載的安裝程式檔案",
+        "step3": "依照安裝精靈的指示完成安裝",
+        "step4": "開啟應用程式並用 QR 碼或電子郵件登入"
+      }
+    },
+    "usage": {
+      "basic": {
+        "title": "基本使用方法",
+        "tip1": "設定大頭貼和姓名讓朋友更容易找到您",
+        "tip2": "用狀態訊息分享當前心情或狀況",
+        "tip3": "在動態時報上查看朋友的近況並給讚或留言"
+      },
+      "chat": {
+        "title": "聊天功能",
+        "tip1": "用貼圖和表情符號豐富地表達情感",
+        "tip2": "在群組聊天中與朋友和家人一起享受對話",
+        "tip3": "輕鬆傳送和接收照片、影片和檔案"
+      },
+      "calls": {
+        "title": "通話功能",
+        "tip1": "透過免費語音通話與全世界的朋友聊天",
+        "tip2": "用影片通話面對面進行更親密的溝通",
+        "tip3": "在群組通話中與大家一起聊天"
+      }
+    },
+    "login": {
+      "newUser": {
+        "title": "新使用者註冊",
+        "step1": "開啟 LINE 應用程式並點擊「新使用者註冊」",
+        "step2": "輸入電話號碼並接收 SMS 驗證碼",
+        "step3": "輸入收到的驗證碼完成身分驗證",
+        "step4": "設定個人資料名稱和大頭貼",
+        "step5": "選擇好友自動新增設定並完成註冊"
+      },
+      "existing": {
+        "title": "現有帳號登入",
+        "step1": "開啟 LINE 應用程式並點擊「登入」",
+        "step2": "輸入您註冊的電話號碼或電子郵件地址",
+        "step3": "輸入密碼完成登入",
+        "step4": "如需要，使用 SMS 驗證碼完成身分驗證"
+      }
+    },
+    "themes": {
+      "change": {
+        "title": "主題更改方法",
+        "step1": "開啟 LINE 應用程式，點擊右下角的「設定」（主頁）分頁",
+        "step2": "從設定選單中選擇「顯示」",
+        "step3": "點擊「主題」項目顯示主題列表",
+        "step4": "選擇喜歡的主題並點擊「套用」",
+        "step5": "預覽後點擊「套用」儲存變更",
+        "step6": "主題套用後 LINE 整體設計將會改變"
+      },
+      "custom": {
+        "title": "自訂主題下載",
+        "step1": "在 LINE STORE 中搜尋喜歡的主題",
+        "step2": "免費主題點擊「下載」，付費主題點擊「購買」",
+        "step3": "下載完成後，從 LINE 應用程式的主題設定中套用",
+        "step4": "隨時可以從我的主題中更換主題"
+      },
+      "tips": {
+        "title": "主題自訂小訣竅",
+        "tip1": "用深色模式和淺色模式減輕眼部疲勞",
+        "tip2": "配合季節或活動更換主題來享受樂趣",
+        "tip3": "與朋友使用相同主題讓對話更有趣"
+      }
+    }
+  },
+  "faq": {
+    "title": "常見問題",
+    "description": "關於下載和使用 LINE",
+    "items": {
+      "free": {
+        "question": "LINE 可以免費使用嗎？",
+        "answer": "是的，LINE 的基本功能（聊天、語音通話、影片通話等）完全免費使用。一些付費貼圖和遊戲內購買可能需要額外費用。"
+      },
+      "data": {
+        "question": "會消耗多少數據流量？",
+        "answer": "文字訊息非常輕量，語音通話每分鐘約消耗 0.3MB，影片通話每分鐘約消耗 5MB 資料（估計）。實際使用量可能因環境而異。建議在 Wi-Fi 環境下使用。"
+      },
+      "multidevice": {
+        "question": "可以在多個裝置上使用同一個帳號嗎？",
+        "answer": "智慧型手機版本每個帳號只能使用一台裝置，但 PC 版和 iPad 版可以同時使用。訊息會在所有裝置間同步。"
+      },
+      "delete": {
+        "question": "如何刪除我的帳號？",
+        "answer": "前往 設定 > 帳號 > 刪除帳號 進行操作。請注意，所有資料將被永久刪除且無法復原。"
+      }
+    }
+  },
+  "footer": {
+    "brand": "LINE 下載",
+    "description": "LINE 應用程式的安全下載指南。支援所有平台。本網站與 LINE Corporation 無關。",
+    "sections": {
+      "download": "下載",
+      "support": "支援",
+      "language": "語言"
+    },
+    "links": {
+      "android": "Android 版",
+      "ios": "iOS 版",
+      "windows": "Windows 版",
+      "mac": "Mac 版",
+      "web": "網頁版",
+      "help": "幫助中心",
+      "faq": "常見問題",
+      "guide": "安裝指南",
+      "contact": "聯絡我們"
+    },
+    "copyright": "© 2025 Download-LINE.com. 非官方下載指南。",
+    "legal": {
+      "privacy": "隱私政策",
+      "terms": "使用條款",
+      "disclaimer": "免責聲明"
+    }
+  }
+}
