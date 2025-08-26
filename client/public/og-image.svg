@@ -1,0 +1,67 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06C755;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#05A846;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f0f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Background pattern -->
+  <circle cx="1000" cy="100" r="150" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="200" cy="500" r="100" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="1100" cy="550" r="80" fill="rgba(255,255,255,0.05)"/>
+  
+  <!-- Main LINE logo -->
+  <g transform="translate(100, 150)">
+    <circle cx="100" cy="100" r="80" fill="white" opacity="0.9"/>
+    <path d="M100 40C140.4 40 173 62.3 173 90C173 104.2 166.8 117.2 155.8 127.2L161 160L132.1 145.3C121.2 149.1 109.1 151.5 95.8 151.5C118.6 151.5 137.5 135.5 137.5 115C137.5 94.5 118.6 78.5 95.8 78.5C73 78.5 54.1 94.5 54.1 115C54.1 135.5 73 151.5 95.8 151.5L100 160C59.6 160 27 137.7 27 110C27 82.3 59.6 60 100 60V40Z" fill="#06C755"/>
+  </g>
+  
+  <!-- Main title -->
+  <text x="350" y="200" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="url(#textGrad)">
+    LINE ダウンロード
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="350" y="260" font-family="Arial, sans-serif" font-size="36" fill="rgba(255,255,255,0.9)">
+    無料アプリ・PC版インストール方法
+  </text>
+  
+  <!-- Features -->
+  <g transform="translate(350, 320)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="32" fill="white">✓ 全プラットフォーム対応</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="32" fill="white">✓ 安全なダウンロード</text>
+    <text x="0" y="100" font-family="Arial, sans-serif" font-size="32" fill="white">✓ 2025年最新ガイド</text>
+  </g>
+  
+  <!-- Platform icons -->
+  <g transform="translate(800, 350)">
+    <!-- iPhone -->
+    <rect x="0" y="0" width="40" height="60" rx="8" fill="white" opacity="0.8"/>
+    <rect x="5" y="8" width="30" height="44" rx="2" fill="#06C755"/>
+    
+    <!-- Android -->
+    <rect x="60" y="0" width="40" height="60" rx="8" fill="white" opacity="0.8"/>
+    <circle cx="80" cy="30" r="15" fill="#06C755"/>
+    
+    <!-- Windows -->
+    <rect x="120" y="0" width="50" height="40" rx="4" fill="white" opacity="0.8"/>
+    <rect x="125" y="5" width="40" height="30" rx="2" fill="#06C755"/>
+    
+    <!-- Mac -->
+    <rect x="190" y="0" width="50" height="40" rx="8" fill="white" opacity="0.8"/>
+    <circle cx="215" cy="20" r="12" fill="#06C755"/>
+  </g>
+  
+  <!-- Stats -->
+  <text x="350" y="550" font-family="Arial, sans-serif" font-size="28" fill="rgba(255,255,255,0.8)">
+    全世界 2.24億+ ユーザーが利用
+  </text>
+</svg>

@@ -11,7 +11,7 @@ export default function SEOHead({
   title, 
   description, 
   keywords, 
-  ogImage = "/images/line-app-download-og.jpg"
+  ogImage = "/og-image.svg"
 }: SEOHeadProps) {
   const { t, i18n } = useTranslation();
   
@@ -146,7 +146,7 @@ export default function SEOHead({
             '@type': 'Organization',
             name: siteName,
             url: 'https://download-line.com',
-            logo: 'https://download-line.com/images/line-logo.png',
+            logo: 'https://download-line.com/line-icon.svg',
             sameAs: [
               'https://line.me/',
               'https://twitter.com/LINE_official',

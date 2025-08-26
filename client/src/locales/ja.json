@@ -10,7 +10,8 @@
   "header": {
     "title": "LINE ダウンロード",
     "subtitle": "ダウンロードサイト",
-    "searchPlaceholder": "検索..."
+    "searchPlaceholder": "検索...",
+    "searchNoResults": "検索結果が見つかりませんでした"
   },
   "hero": {
     "title": {

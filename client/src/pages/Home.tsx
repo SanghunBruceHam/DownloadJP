@@ -24,12 +24,22 @@ export default function Home() {
       <Header />
       
       <main>
-        <HeroSection />
+        <section id="hero-section">
+          <HeroSection />
+        </section>
         
-        <FeaturesSection />
-        <InstallationGuide />
-        <DetailedGuide />
-        <FAQSection />
+        <section id="features-section">
+          <FeaturesSection />
+        </section>
+        <section id="installation-section">
+          <InstallationGuide />
+        </section>
+        <section id="guide-section">
+          <DetailedGuide />
+        </section>
+        <section id="faq-section">
+          <FAQSection />
+        </section>
         
         {/* Middle Content Ad */}
         <section className="py-8 bg-gray-50">
@@ -63,7 +73,9 @@ export default function Home() {
         </div>
       </div>
       
-      <PlatformGrid />
+      <section id="platforms-section">
+        <PlatformGrid />
+      </section>
       
       <Footer />
     </div>

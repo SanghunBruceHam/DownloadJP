@@ -1,0 +1,12 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="128" fill="#06C755"/>
+  
+  <!-- LINE Logo Shape -->
+  <path d="M256 96C363.2 96 450 160.8 450 240C450 280.8 432 318.4 398.4 348.8L416 416L334.4 374.4C316.8 380.8 297.6 384 277.6 384C326.4 384 368 350.4 368 304C368 257.6 326.4 224 277.6 224C228.8 224 187.2 257.6 187.2 304C187.2 350.4 228.8 384 277.6 384L256 416C148.8 416 62 360.8 62 288C62 215.2 148.8 160 256 160V96Z" fill="white"/>
+  
+  <!-- Chat bubbles -->
+  <circle cx="200" cy="280" r="24" fill="white"/>
+  <circle cx="256" cy="260" r="28" fill="white"/>
+  <circle cx="312" cy="280" r="24" fill="white"/>
+</svg>

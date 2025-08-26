@@ -1,0 +1,19 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with rounded corners -->
+  <rect width="180" height="180" rx="40" fill="#06C755"/>
+  
+  <!-- LINE brand elements -->
+  <circle cx="90" cy="90" r="70" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  
+  <!-- Main LINE chat bubble -->
+  <path d="M90 35C125.3 35 154 55.7 154 81C154 92.7 149.1 103.4 140.6 112L147 140L116.4 125.7C106.8 129.3 96.1 131.5 84.1 131.5C103.8 131.5 120 117.5 120 99.5C120 81.5 103.8 67.5 84.1 67.5C64.4 67.5 48.2 81.5 48.2 99.5C48.2 117.5 64.4 131.5 84.1 131.5L90 145C54.7 145 26 124.3 26 99C26 73.7 54.7 53 90 53V35Z" fill="white"/>
+  
+  <!-- Download arrow symbol -->
+  <path d="M90 110L80 120L90 130L100 120L90 110Z" fill="#06C755"/>
+  <rect x="87" y="90" width="6" height="20" fill="#06C755"/>
+  
+  <!-- Small decorative elements -->
+  <circle cx="70" cy="85" r="3" fill="rgba(255,255,255,0.8)"/>
+  <circle cx="90" cy="80" r="4" fill="rgba(255,255,255,0.9)"/>
+  <circle cx="110" cy="85" r="3" fill="rgba(255,255,255,0.8)"/>
+</svg>

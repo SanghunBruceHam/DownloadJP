@@ -1,0 +1,83 @@
+{
+  "name": "LINE Download - 라인 다운로드 - LINEダウンロード",
+  "short_name": "LINE Download",
+  "description": "LINE app download guide for all platforms - iPhone, Android, Windows, Mac",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06C755",
+  "theme_color": "#06C755",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "ja",
+  "categories": ["productivity", "social", "utilities"],
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "line-icon.svg", 
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "apple-touch-icon.svg",
+      "sizes": "180x180", 
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "og-image.svg",
+      "sizes": "1200x630",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "LINE Download Guide Homepage"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Android Download",
+      "short_name": "Android", 
+      "description": "Download LINE for Android",
+      "url": "/#platforms-section",
+      "icons": [
+        {
+          "src": "line-icon.svg",
+          "sizes": "512x512",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "iPhone Download",
+      "short_name": "iPhone",
+      "description": "Download LINE for iPhone", 
+      "url": "/#platforms-section",
+      "icons": [
+        {
+          "src": "line-icon.svg", 
+          "sizes": "512x512",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "PC Download",
+      "short_name": "PC",
+      "description": "Download LINE for Windows/Mac",
+      "url": "/#platforms-section", 
+      "icons": [
+        {
+          "src": "line-icon.svg",
+          "sizes": "512x512", 
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}

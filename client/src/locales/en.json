@@ -10,7 +10,8 @@
   "header": {
     "title": "LINE Download",
     "subtitle": "Download Site",
-    "searchPlaceholder": "Search..."
+    "searchPlaceholder": "Search...",
+    "searchNoResults": "No search results found"
   },
   "hero": {
     "title": {
